@@ -10,12 +10,19 @@
 *-backups
 *.kicad_prl
 *.sch-bak
-*~
+~*
 _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
+
+# Micro-Cap (auto-generated files)
+*.bak_cir
+*.SVV
+*.TNO
+*.inx
+*.inx?
 
 # Netlist files (exported from Eeschema)
 *.net
