@@ -536,6 +536,7 @@
       "Net-(C1-Pad1)": "PTYPC",
       "Net-(C1-Pad2)": "PTYPC",
       "Net-(C11-Pad1)": "PUSB",
+      "Net-(C12-Pad1)": "PUSB",
       "Net-(CN1-SHIELD)": "PTYPC",
       "Net-(CN1-VBUS-PadA9)": "PUSB",
       "Net-(CN4-GND1)": "PGND",
@@ -545,9 +546,13 @@
       "Net-(D1-A1)": "PUSB",
       "Net-(D1-A2)": "PGND",
       "Net-(D3-K)": "PUSB",
+      "Net-(D4-A2)": "PUSB",
       "Net-(J1-B)": "PUSB",
+      "Net-(J2-A)": "PA",
+      "Net-(J2-B)": "PA",
       "Net-(J4-A)": "PA",
       "Net-(J4-B)": "PA",
+      "Net-(J7-Pin_1)": "PUSB",
       "Net-(U1.1-V+)": "PA"
     },
     "netclass_patterns": [
@@ -655,6 +660,12 @@
           "label": "Mfg. part",
           "name": "Mfg. part",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -706,6 +717,10 @@
     [
       "5869d0d8-0214-47f7-a5b8-c2b5f6821b5d",
       "Корневой лист"
+    ],
+    [
+      "9fca3833-070a-4df1-9895-844ed64befb4",
+      "ScapPwrStorageModule"
     ]
   ],
   "text_variables": {}
