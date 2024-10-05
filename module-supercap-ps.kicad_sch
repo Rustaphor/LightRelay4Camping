@@ -6302,9 +6302,9 @@
 		)
 		(uuid "21d83390-95df-430a-86c2-356235ec572f")
 	)
-	(text "VCC = 5V"
+	(text "(VCC=5V)"
 		(exclude_from_sim yes)
-		(at 204.216 52.324 0)
+		(at 196.342 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6368,6 +6368,29 @@
 		)
 		(uuid "8af8fc3e-463e-4800-b8db-0b07750f1cc8")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 129.54 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11b2bcb6-6540-486b-9c29-9bce36f4dd89")
+		(property "Netclass" "PA"
+			(at 130.2385 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 237.49 64.77 0)
@@ -6378,7 +6401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0034b246-a6b8-4249-951d-5993dc2ad47c")
-		(property "Reference" "J6"
+		(property "Reference" "CN9"
 			(at 234.442 74.93 0)
 			(effects
 				(font
@@ -6438,7 +6461,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "J6")
+					(reference "CN9")
 					(unit 1)
 				)
 			)
@@ -6453,7 +6476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0386e813-3937-4e68-ba97-a83af8fc6fdd")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 55.88 104.648 90)
 			(effects
 				(font
@@ -6507,7 +6530,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "D5")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6522,7 +6545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04867cb3-da76-4755-be17-5ef3213a23dd")
-		(property "Reference" "J5"
+		(property "Reference" "CN8"
 			(at 42.418 78.994 0)
 			(effects
 				(font
@@ -6585,7 +6608,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "J5")
+					(reference "CN8")
 					(unit 1)
 				)
 			)
@@ -6600,7 +6623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "08ef6727-c41c-4cd8-acd9-6859415c2d79")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 173.99 78.74 0)
 			(effects
 				(font
@@ -6652,7 +6675,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -6667,7 +6690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18ad9ed6-9297-4779-ae10-87fb3574a335")
-		(property "Reference" "C22"
+		(property "Reference" "C19"
 			(at 192.532 83.82 90)
 			(effects
 				(font
@@ -6721,7 +6744,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C22")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -6736,7 +6759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "199a5470-bc4f-400c-acc5-bb172e9a4cce")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 143.51 86.7409 0)
 			(effects
 				(font
@@ -6798,7 +6821,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6837,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a23226c-ef34-4081-9d6f-50a406b56251")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 168.91 125.73 0)
 			(effects
 				(font
@@ -6866,7 +6889,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -6881,7 +6904,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ad433f6-793d-480c-a33f-7ae6e89a1bb1")
-		(property "Reference" "R25"
+		(property "Reference" "R22"
 			(at 118.11 65.532 90)
 			(effects
 				(font
@@ -6935,7 +6958,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R25")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -6951,7 +6974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b325cb7-766c-4d46-b70c-2bee6217e646")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR025"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -7003,7 +7026,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR027")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -7019,7 +7042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b591410-efd7-4eb2-85c4-33f0ddaf8048")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 209.55 125.73 0)
 			(effects
 				(font
@@ -7071,7 +7094,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -7086,7 +7109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f1af72a-fe6f-4b9a-bbfb-2c330401904f")
-		(property "Reference" "R30"
+		(property "Reference" "R27"
 			(at 204.47 102.616 90)
 			(effects
 				(font
@@ -7138,7 +7161,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R30")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -7153,7 +7176,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23f1c380-20d8-4295-be82-cfcbe7dc5d76")
-		(property "Reference" "R29"
+		(property "Reference" "R26"
 			(at 164.846 83.82 0)
 			(effects
 				(font
@@ -7205,7 +7228,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R29")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7220,7 +7243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25f82c0a-79d3-43d6-9808-49de6c0551e4")
-		(property "Reference" "R22"
+		(property "Reference" "R19"
 			(at 89.662 99.822 0)
 			(effects
 				(font
@@ -7274,7 +7297,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R22")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -7290,7 +7313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2906f1eb-f79f-461c-9d63-d763c2fce9bb")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR038"
 			(at 245.11 123.19 0)
 			(effects
 				(font
@@ -7342,7 +7365,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR022")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -7357,7 +7380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c4f8228-70a3-47ec-81e5-76c591bd0c06")
-		(property "Reference" "R19"
+		(property "Reference" "R16"
 			(at 63.246 82.042 0)
 			(effects
 				(font
@@ -7411,7 +7434,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7690,7 +7713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa28e8c-15df-446e-9ee0-053e7d1c9f42")
-		(property "Reference" "R23"
+		(property "Reference" "R20"
 			(at 111.76 87.6299 0)
 			(effects
 				(font
@@ -7744,7 +7767,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R23")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7759,7 +7782,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ef78787-5d23-42f6-8232-d8ee4a507469")
-		(property "Reference" "C23"
+		(property "Reference" "C20"
 			(at 189.484 61.468 0)
 			(effects
 				(font
@@ -7813,7 +7836,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C23")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7829,7 +7852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43a9cca6-e05d-40d7-9d4d-a40a169c771e")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 129.54 101.6 0)
 			(effects
 				(font
@@ -7881,7 +7904,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7896,7 +7919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4418d605-7548-4bac-adba-e5006e75262c")
-		(property "Reference" "C15"
+		(property "Reference" "C23"
 			(at 231.648 100.838 0)
 			(effects
 				(font
@@ -7950,7 +7973,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C15")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7965,7 +7988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "445066a7-a3bc-401d-b9b0-d334c351cb2e")
-		(property "Reference" "R31"
+		(property "Reference" "R28"
 			(at 213.106 84.074 0)
 			(effects
 				(font
@@ -8017,7 +8040,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R31")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8032,7 +8055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4960577e-d775-4fff-abe8-d5b25cbe8a02")
-		(property "Reference" "R20"
+		(property "Reference" "R17"
 			(at 71.628 82.042 0)
 			(effects
 				(font
@@ -8086,7 +8109,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R20")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8101,7 +8124,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49a96701-06c8-4537-9bd0-c86e465d8d8b")
-		(property "Reference" "R24"
+		(property "Reference" "R21"
 			(at 114.3 101.6 90)
 			(effects
 				(font
@@ -8155,7 +8178,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R24")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -8170,7 +8193,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c49e711-14f8-46c6-a25d-6edc87d0e7b8")
-		(property "Reference" "R28"
+		(property "Reference" "R25"
 			(at 149.86 77.47 90)
 			(effects
 				(font
@@ -8224,7 +8247,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R28")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8239,7 +8262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e2f2c3a-8686-4bac-80d9-8bf37bf41e9e")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 107.95 43.942 0)
 			(effects
 				(font
@@ -8293,7 +8316,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8309,7 +8332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59538626-e05f-405c-ab2e-7e91608816ac")
-		(property "Reference" "R26"
+		(property "Reference" "R23"
 			(at 130.81 135.8899 0)
 			(effects
 				(font
@@ -8363,7 +8386,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R26")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8401,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6548b906-796c-47bb-ad5f-d67d5846eede")
-		(property "Reference" "C20"
+		(property "Reference" "C17"
 			(at 180.086 53.848 0)
 			(effects
 				(font
@@ -8441,7 +8464,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C20")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -8457,7 +8480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a09e170-3849-4eea-93cf-6da3134ab0b2")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR026"
 			(at 158.75 113.03 0)
 			(effects
 				(font
@@ -8509,7 +8532,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -8525,7 +8548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e53792c-3f3d-4c4a-9208-62ad33391da2")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR023"
 			(at 128.27 137.16 0)
 			(effects
 				(font
@@ -8575,7 +8598,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR025")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8590,7 +8613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7345d241-32a1-4225-923d-25fdd6bcbe46")
-		(property "Reference" "C19"
+		(property "Reference" "C16"
 			(at 172.466 113.03 0)
 			(effects
 				(font
@@ -8644,7 +8667,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C19")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -8850,7 +8873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7871b126-db16-46a2-a8ae-c3c1f114d16e")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR020"
 			(at 81.28 101.6 0)
 			(effects
 				(font
@@ -8902,7 +8925,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR023")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -8917,7 +8940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84bb4174-773d-405e-8f5f-1d6772bced89")
-		(property "Reference" "R21"
+		(property "Reference" "R18"
 			(at 82.804 68.326 0)
 			(effects
 				(font
@@ -8971,7 +8994,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R21")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8986,7 +9009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86fc00e6-109c-4a78-ba94-831bd942a7b9")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 173.99 85.09 0)
 			(effects
 				(font
@@ -9038,7 +9061,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -9053,7 +9076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87b34a88-0142-49c3-839b-87d74212b216")
-		(property "Reference" "C18"
+		(property "Reference" "C15"
 			(at 162.306 101.6 0)
 			(effects
 				(font
@@ -9107,7 +9130,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C18")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9195,7 +9218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ef2577e-c0fa-4d8f-83a6-7501a6dae28e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 224.79 63.5 0)
 			(effects
 				(font
@@ -9246,7 +9269,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -9262,7 +9285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "903511eb-b924-4a9d-905d-aaab4af379ef")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 67.31 119.38 0)
 			(effects
 				(font
@@ -9314,7 +9337,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9506,7 +9529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a624c8d-86b4-4d1b-ba21-a860dff3f796")
-		(property "Reference" "C21"
+		(property "Reference" "C18"
 			(at 192.532 77.47 90)
 			(effects
 				(font
@@ -9560,7 +9583,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C21")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9575,7 +9598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b1b9120-48c2-452a-865b-e7aaf47b8359")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR037"
 			(at 245.11 92.71 0)
 			(effects
 				(font
@@ -9626,7 +9649,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR021")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9641,7 +9664,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c1e9c00-445f-4d8d-8af8-6dd2343f63d9")
-		(property "Reference" "C25"
+		(property "Reference" "C22"
 			(at 220.472 112.014 0)
 			(effects
 				(font
@@ -9704,7 +9727,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C25")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9791,7 +9814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6258fb7-3774-41ef-9f47-c591ebf94069")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 60.96 119.38 0)
 			(effects
 				(font
@@ -9843,7 +9866,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9858,7 +9881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adea355b-03dd-4fc9-97b5-36138cff7a58")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 167.64 43.942 0)
 			(effects
 				(font
@@ -9912,7 +9935,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -9928,7 +9951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af5d68b9-b2ad-4312-8db3-936286331bc2")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 187.96 125.73 0)
 			(effects
 				(font
@@ -9980,7 +10003,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9995,7 +10018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af73a092-d885-4505-8840-b68df104135e")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 187.96 76.2 0)
 			(effects
 				(font
@@ -10046,7 +10069,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -10061,7 +10084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0834bf3-b300-4883-888c-b316e40ed3ca")
-		(property "Reference" "C16"
+		(property "Reference" "C13"
 			(at 122.174 75.438 0)
 			(effects
 				(font
@@ -10115,7 +10138,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C16")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd221848-7e29-40c0-9855-3210960dd2a1")
-		(property "Reference" "R27"
+		(property "Reference" "R24"
 			(at 145.288 68.326 0)
 			(effects
 				(font
@@ -10184,7 +10207,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "R27")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10199,7 +10222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5c20315-3050-4fea-920d-57575e807797")
-		(property "Reference" "C24"
+		(property "Reference" "C21"
 			(at 202.438 112.776 0)
 			(effects
 				(font
@@ -10262,7 +10285,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C24")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -10277,7 +10300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca70b89d-9507-4f47-ba1b-915b77d6d0dc")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 193.04 59.69 0)
 			(effects
 				(font
@@ -10328,7 +10351,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10344,7 +10367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce101086-d9f1-46d7-9a43-b61b4adef702")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 58.42 82.55 0)
 			(effects
 				(font
@@ -10396,7 +10419,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10412,7 +10435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd1a5d2e-b37a-41d8-8815-ffbdaf14efc7")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 50.8 82.55 0)
 			(effects
 				(font
@@ -10464,7 +10487,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10480,7 +10503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e69655e3-99ff-4b2e-bdb0-357f69695c8a")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 167.64 74.93 0)
 			(effects
 				(font
@@ -10532,7 +10555,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -10548,7 +10571,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed7521df-9593-4a6e-b278-6141d29f5c1d")
-		(property "Reference" "C5"
+		(property "Reference" "C12"
 			(at 95.25 63.4999 0)
 			(effects
 				(font
@@ -10602,7 +10625,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "C5")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -10618,7 +10641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0efc2b2-7657-4f81-ac4d-91a28055b3b5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR022"
 			(at 109.22 101.6 0)
 			(effects
 				(font
@@ -10670,7 +10693,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR024")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10773,7 +10796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f88e8195-c434-4d42-8ed6-342664fe0235")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 224.79 77.47 0)
 			(effects
 				(font
@@ -10825,7 +10848,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -11048,7 +11071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fce98692-6bc4-4eb5-ae2a-54165346d202")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 123.952 69.596 90)
 			(effects
 				(font
@@ -11102,7 +11125,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -11118,7 +11141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff8c4fbe-4d62-4e42-8c0f-c0851aa4c414")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR021"
 			(at 91.44 76.2 0)
 			(effects
 				(font
@@ -11170,7 +11193,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d/9fca3833-070a-4df1-9895-844ed64befb4"
-					(reference "#PWR06")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

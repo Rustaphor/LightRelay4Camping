@@ -540,13 +540,19 @@
       "Net-(CN1-SHIELD)": "PTYPC",
       "Net-(CN1-VBUS-PadA9)": "PUSB",
       "Net-(CN4-GND1)": "PGND",
+      "Net-(CN4-Pin_1)": "PUSB",
       "Net-(CN4-Shield)": "PGND",
       "Net-(CN4-VBUS1)": "PUSB",
       "Net-(CN5-Shield)": "PGND",
+      "Net-(CN6-GND1)": "PGND",
+      "Net-(CN6-Shield)": "PGND",
+      "Net-(CN6-VBUS1)": "PUSB",
+      "Net-(CN7-Shield)": "PGND",
       "Net-(D1-A1)": "PUSB",
       "Net-(D1-A2)": "PGND",
       "Net-(D3-K)": "PUSB",
       "Net-(D4-A2)": "PUSB",
+      "Net-(D7-K)": "PA",
       "Net-(J1-B)": "PUSB",
       "Net-(J2-A)": "PA",
       "Net-(J2-B)": "PA",
@@ -561,12 +567,20 @@
         "pattern": ""
       },
       {
-        "netclass": "PUSB",
+        "netclass": "PA",
         "pattern": "+5V"
       },
       {
         "netclass": "PGND",
         "pattern": "GND*"
+      },
+      {
+        "netclass": "PA",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "PA",
+        "pattern": "*_VBUS"
       }
     ]
   },
@@ -605,37 +619,37 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -645,20 +659,8 @@
         },
         {
           "group_by": false,
-          "label": "Mfr. part",
-          "name": "Mfr. part",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Описание",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfg. part",
-          "name": "Mfg. part",
           "show": false
         },
         {
@@ -672,7 +674,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": ""
     },
     "connection_grid_size": 50.0,
     "drawing": {

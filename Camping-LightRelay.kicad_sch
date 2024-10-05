@@ -2991,297 +2991,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_2_Small_Bridged"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J1"
-				(at 0 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Junction"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Junction 2 pole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Junction"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_ Resistor_SMD Junction_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_0_0"
-				(circle
-					(center -1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_0_1"
-				(arc
-					(start 0.762 0.254)
-					(mid 0 0.5696)
-					(end -0.762 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper_2_Small_Bridged_1"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Small_Bridged"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, small symbol, bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_1_0_0"
-				(circle
-					(center -1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.016 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_1_0_1"
-				(arc
-					(start 0.762 0.254)
-					(mid 0 0.5696)
-					(end -0.762 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Small_Bridged_1_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_Amplifier_Operational_AKL:LMV358ID"
 			(pin_names
 				(offset 0.2)
@@ -3508,6 +3217,104 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_Generic:P,0"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 3.81)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Value" "P,0"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 0.001 0.001)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 2.54 2.54)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "P V 0 GND FB equipotential bonding earth earthing ground grounding simplified frame chassis potential voltage tension global DC power supply node label pin"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "P,0_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0) hide
+					(name "0"
+						(effects
+							(font
+								(size 2.54 2.54)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 0 0)
 							)
 						)
 					)
@@ -4304,6 +4111,363 @@
 				)
 			)
 		)
+		(symbol "USB_A_Stacked_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at -8.89 1.2701 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "USB_A_Stacked"
+				(at -8.89 -1.2699 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Type A connector, stacked"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_A_Stacked_1_0_1"
+				(rectangle
+					(start -7.62 12.7)
+					(end 7.62 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.159 1.905)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.889 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.254 7.366)
+					(end -3.048 7.874)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.254 9.906)
+					(end -3.048 10.414)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.127 -12.7)
+					(end 0.127 -11.938)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 3.175) (xy -0.254 3.175) (xy -0.889 4.445) (xy -1.524 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 -0.635) (xy -0.889 0) (xy -2.159 1.27) (xy -2.159 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.889 0) (xy -0.889 0.635) (xy 0.381 1.27) (xy 0.381 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 2.794)
+					(end 0.762 2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0 7.112)
+					(end -3.302 8.382)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 9.652)
+					(end -3.302 10.922)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -5.207)
+					(end 6.858 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 -2.667)
+					(end 6.858 -2.413)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 7.493)
+					(end 6.858 7.747)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.62 10.033)
+					(end 6.858 10.287)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_A_Stacked_1_1_1"
+				(polyline
+					(pts
+						(xy -0.889 0.635) (xy -0.889 3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "VBUS1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "GND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "VBUS2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "GND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -4380,174 +4544,6 @@
 				)
 			)
 			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GNDPWR"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDPWR"
-				(at 0 -3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDPWR_0_1"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -1.27 -2.032) (xy -1.27 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 -1.27) (xy -0.762 -2.032) (xy -0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy -0.254 -2.032) (xy -0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -1.27) (xy 0.254 -2.032) (xy 0.254 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy -1.016 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 -1.27) (xy 0.762 -2.032) (xy 0.762 -2.032) (xy 0.762 -2.032)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDPWR_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -4762,10 +4758,10 @@
 		(uuid "39eb0985-16d7-4622-bec8-024be677cb0c")
 	)
 	(junction
-		(at 175.26 72.39)
+		(at 93.98 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f23631a-077f-4ac4-aea1-5eb1e1436608")
+		(uuid "3a9c4747-804e-4130-b334-09cc34c87899")
 	)
 	(junction
 		(at 153.67 38.1)
@@ -4822,10 +4818,22 @@
 		(uuid "64f2afd1-fc4a-49d1-9a44-22953ee568e0")
 	)
 	(junction
+		(at 161.29 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69a4e144-d71f-48d3-a5c8-10f28ab99836")
+	)
+	(junction
 		(at 121.92 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "723083e2-c0d0-4da7-bb22-85d94c8dc3fe")
+	)
+	(junction
+		(at 175.26 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72c2120f-e3f8-41a8-b8e4-37f7d4b2c620")
 	)
 	(junction
 		(at 175.26 38.1)
@@ -4858,28 +4866,28 @@
 		(uuid "843f20aa-22dd-46f7-a9c3-da933d0eccdb")
 	)
 	(junction
-		(at 93.98 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8597411a-2232-4588-806a-1e219ce5ed79")
-	)
-	(junction
 		(at 97.79 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b4b2f2-9e79-4644-afaa-0544c1c1d3db")
 	)
 	(junction
-		(at 99.06 82.55)
+		(at 80.01 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8b9e6884-23ca-4f7f-8385-996830462a16")
+		(uuid "8ce2df08-1754-4df8-a545-85187c696fc7")
 	)
 	(junction
 		(at 72.39 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9117e135-bfd1-423d-8dbd-8d69bd1e4405")
+	)
+	(junction
+		(at 80.01 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9244c948-bab7-4de4-8658-cd97dea546f9")
 	)
 	(junction
 		(at 97.79 72.39)
@@ -4918,12 +4926,6 @@
 		(uuid "adfb58ed-7992-462c-a1e4-54591ff36776")
 	)
 	(junction
-		(at 81.28 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b37caacb-0016-40cf-b725-512cd3cf9476")
-	)
-	(junction
 		(at 186.69 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4940,12 +4942,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b75ea346-03ed-4c2e-b204-f3babf679c37")
-	)
-	(junction
-		(at 81.28 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8de11d7-275a-4efe-904a-6ad2c5f8f40f")
 	)
 	(junction
 		(at 191.77 123.19)
@@ -5059,7 +5055,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 96.52) (xy 93.98 82.55)
+			(xy 93.98 96.52) (xy 93.98 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5279,16 +5275,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 116.84) (xy 173.99 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21c6690d-757a-45d8-9b55-544754e1e90f")
-	)
-	(wire
-		(pts
 			(xy 168.91 43.18) (xy 168.91 40.64)
 		)
 		(stroke
@@ -5299,7 +5285,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 81.28 58.42)
+			(xy 80.01 38.1) (xy 80.01 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5579,7 +5565,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 38.1) (xy 81.28 38.1)
+			(xy 72.39 38.1) (xy 80.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5639,16 +5625,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 91.44) (xy 129.54 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e21a53-55fb-491a-9536-d8b2f6eed2d5")
-	)
-	(wire
-		(pts
 			(xy 156.21 40.64) (xy 157.48 40.64)
 		)
 		(stroke
@@ -5676,16 +5652,6 @@
 			(type default)
 		)
 		(uuid "5984b9eb-709e-4837-96e9-4bf064c0c0e4")
-	)
-	(wire
-		(pts
-			(xy 99.06 82.55) (xy 120.65 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59d89060-5c04-4e55-9db5-cf7b9d4a6d60")
 	)
 	(wire
 		(pts
@@ -5726,26 +5692,6 @@
 			(type default)
 		)
 		(uuid "60668857-a6a8-4bf1-8100-c6dcfb84690b")
-	)
-	(wire
-		(pts
-			(xy 93.98 82.55) (xy 99.06 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a5b273-543a-4255-9a48-0e363dbf5735")
-	)
-	(wire
-		(pts
-			(xy 99.06 90.17) (xy 99.06 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6569b45d-9d46-40ea-bc23-ffae442d31ca")
 	)
 	(wire
 		(pts
@@ -5949,7 +5895,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 82.55) (xy 93.98 82.55)
+			(xy 64.77 91.44) (xy 93.98 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6039,7 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 72.39) (xy 81.28 72.39)
+			(xy 72.39 72.39) (xy 80.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6119,7 +6065,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 81.28) (xy 129.54 82.55)
+			(xy 173.99 90.17) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6269,6 +6215,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 74.93) (xy 97.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "944f92cd-1cdf-4c6b-89d5-1a8970813f58")
+	)
+	(wire
+		(pts
 			(xy 146.05 120.65) (xy 146.05 116.84)
 		)
 		(stroke
@@ -6286,16 +6242,6 @@
 			(type default)
 		)
 		(uuid "94d3de59-76ab-4999-ae6b-60cf81d9737f")
-	)
-	(wire
-		(pts
-			(xy 99.06 82.55) (xy 99.06 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9558db0b-1183-4558-85f0-3674a009cdf1")
 	)
 	(wire
 		(pts
@@ -6339,7 +6285,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 116.84) (xy 165.1 116.84)
+			(xy 44.45 63.5) (xy 44.45 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9accfc8b-9d8b-4c77-b406-5dfb6bb66e08")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 173.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6376,6 +6332,16 @@
 			(type default)
 		)
 		(uuid "9c495408-38bb-4852-ad46-2596a6e781ae")
+	)
+	(wire
+		(pts
+			(xy 161.29 91.44) (xy 165.1 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e01eed3-ed44-4b99-bb20-08249a1b5740")
 	)
 	(wire
 		(pts
@@ -6419,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 82.55) (xy 128.27 82.55)
+			(xy 173.99 91.44) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6459,6 +6425,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 74.93) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af12496a-a621-4f86-baef-f9b6d02f9b1b")
+	)
+	(wire
+		(pts
 			(xy 64.77 139.7) (xy 64.77 147.32)
 		)
 		(stroke
@@ -6479,7 +6455,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 81.28 72.39)
+			(xy 80.01 66.04) (xy 80.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6569,7 +6545,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 96.52) (xy 64.77 82.55)
+			(xy 64.77 96.52) (xy 64.77 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6729,16 +6705,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 85.09 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04d9326-4f05-48c5-981d-343f0bc906aa")
-	)
-	(wire
-		(pts
 			(xy 243.84 38.1) (xy 243.84 31.75)
 		)
 		(stroke
@@ -6746,6 +6712,16 @@
 			(type default)
 		)
 		(uuid "d14b2ce1-60e4-4098-b645-9abc04d52013")
+	)
+	(wire
+		(pts
+			(xy 80.01 72.39) (xy 85.09 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e0654f-3d3f-4bf4-9db4-5b2933e5094a")
 	)
 	(wire
 		(pts
@@ -6799,6 +6775,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 38.1) (xy 85.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0e19109-903b-4ebf-af22-5414ef80aa04")
+	)
+	(wire
+		(pts
 			(xy 107.95 128.27) (xy 121.92 128.27)
 		)
 		(stroke
@@ -6839,6 +6825,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 91.44) (xy 93.98 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7433421-79c9-4305-8f78-07c18cd04913")
+	)
+	(wire
+		(pts
 			(xy 118.11 101.6) (xy 111.76 101.6)
 		)
 		(stroke
@@ -6846,16 +6842,6 @@
 			(type default)
 		)
 		(uuid "e7d01627-5c21-4558-859a-e586bca36171")
-	)
-	(wire
-		(pts
-			(xy 81.28 72.39) (xy 85.09 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9ec3759-0581-4e49-9057-2e2d7acee03b")
 	)
 	(wire
 		(pts
@@ -7130,29 +7116,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 44.45 63.5 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36b1b06a-cba5-42ae-acf2-37b19bba6d7e")
-		(property "Netclass" "PUSB"
-			(at 40.894 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 72.39 38.1 0)
 		(effects
 			(font
@@ -7283,7 +7246,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 93.98 82.55 0)
+		(at 93.98 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7293,7 +7256,7 @@
 		)
 		(uuid "a81a553c-34e0-4949-8b5a-d85859dfdfa3")
 		(property "Netclass" "PA"
-			(at 94.6785 80.01 0)
+			(at 94.6785 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7371,29 +7334,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 129.54 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e09c0209-6ebb-4ecb-b640-51753e6061bf")
-		(property "Netclass" "PA"
-			(at 130.2385 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 36.83 63.5 90)
 		(effects
 			(font
@@ -7423,7 +7363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0160c079-7d11-4adc-a4fb-6bf6460e7142")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 62.484 113.284 0)
 			(effects
 				(font
@@ -7468,7 +7408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg. part" " PTN10-A200SB20"
+		(property "Part Number" " PTN10-A200SB20"
 			(at 68.072 125.222 90)
 			(effects
 				(font
@@ -7488,7 +7428,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7503,7 +7443,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02941129-878b-41c4-8a31-b240c82393f3")
-		(property "Reference" "R6"
+		(property "Reference" "R5"
 			(at 62.738 125.984 0)
 			(effects
 				(font
@@ -7557,7 +7497,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R6")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7573,7 +7513,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "036756ef-b4f7-497f-bdca-8beb6a462dae")
-		(property "Reference" "CN4"
+		(property "Reference" "CN6"
 			(at 227.33 30.48 0)
 			(effects
 				(font
@@ -7600,7 +7540,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 222.25 46.99 0)
 			(effects
 				(font
@@ -7636,7 +7576,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "CN4")
+					(reference "CN6")
 					(unit 1)
 				)
 			)
@@ -7651,20 +7591,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "038d7477-3fc5-4804-b507-38a54e5eac68")
-		(property "Reference" "FB3"
-			(at 88.9 32.004 90)
+		(property "Reference" "FB2"
+			(at 87.122 32.766 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Value" "XRRH3.5*8.0*0.8"
-			(at 88.9 34.036 90)
+			(at 86.868 33.274 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "PCM_Ferrite_THT_AKL:Ferrite_L8.0mm_D3.5mm_P12.70mm"
@@ -7703,7 +7645,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "FB3")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -7718,7 +7660,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05651feb-d992-44a6-b728-eb35c6164ed2")
-		(property "Reference" "FB9"
+		(property "Reference" "FB8"
 			(at 227.33 74.168 0)
 			(effects
 				(font
@@ -7770,7 +7712,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "FB9")
+					(reference "FB8")
 					(unit 1)
 				)
 			)
@@ -7870,7 +7812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cb875ed-7518-47cb-a887-2ae5ded13115")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 121.92 102.108 0)
 			(effects
 				(font
@@ -7922,7 +7864,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8071,20 +8013,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1703e103-f91d-463a-9121-35499366d061")
-		(property "Reference" "FB4"
-			(at 88.9 66.294 90)
+		(property "Reference" "FB3"
+			(at 88.646 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify top)
 			)
 		)
 		(property "Value" "XRRH3.5*8.0*0.8"
-			(at 89.662 68.326 90)
+			(at 88.9 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" "PCM_Ferrite_THT_AKL:Ferrite_L8.0mm_D3.5mm_P3.81mm_Vertical"
@@ -8123,7 +8067,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "FB4")
+					(reference "FB3")
 					(unit 1)
 				)
 			)
@@ -8138,7 +8082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17b3be56-39d0-44b2-8457-a5b789e9607a")
-		(property "Reference" "C7"
+		(property "Reference" "C6"
 			(at 131.064 106.68 0)
 			(effects
 				(font
@@ -8201,7 +8145,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "C7")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8257,14 +8201,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "Mfg. part" ""
-			(at 66.548 40.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -8504,7 +8440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a515d4d-3021-4b6d-8c80-3da0a5ddcf49")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR09"
 			(at 143.51 78.74 0)
 			(effects
 				(font
@@ -8555,7 +8491,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR015")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9053,7 +8989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4749c3b1-a1d5-4ad1-9403-3a7413d4aa39")
-		(property "Reference" "R8"
+		(property "Reference" "R6"
 			(at 91.694 99.568 0)
 			(effects
 				(font
@@ -9107,7 +9043,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R8")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -9122,7 +9058,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "507431df-4b9d-46dd-b7d2-ad6650b298d5")
-		(property "Reference" "R17"
+		(property "Reference" "R15"
 			(at 188.468 45.72 0)
 			(effects
 				(font
@@ -9176,7 +9112,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R17")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9184,15 +9120,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 129.54 81.28 0)
+		(at 173.99 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "585efbc8-1a35-4a36-9763-4a9b598ba87d")
-		(property "Reference" "#PWR08"
-			(at 129.54 85.09 0)
+		(property "Reference" "#PWR014"
+			(at 173.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9201,7 +9137,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 129.54 77.724 0)
+			(at 173.99 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9209,7 +9145,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 81.28 0)
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9218,7 +9154,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 81.28 0)
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9227,7 +9163,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 129.54 81.28 0)
+			(at 173.99 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9241,7 +9177,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR08")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9325,7 +9261,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5989684e-c60a-4f3c-b4d7-77a6ed9a50ea")
-		(property "Reference" "FB10"
+		(property "Reference" "FB9"
 			(at 255.27 74.168 0)
 			(effects
 				(font
@@ -9377,13 +9313,14 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "FB10")
+					(reference "FB9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "USB_A_Stacked_1")
 		(lib_id "Connector:USB_A_Stacked")
 		(at 255.27 48.26 0)
 		(mirror y)
@@ -9393,7 +9330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e92bdc8-c2fd-42ef-8ac8-b4562bec730c")
-		(property "Reference" "CN5"
+		(property "Reference" "CN7"
 			(at 245.11 32.004 0)
 			(effects
 				(font
@@ -9421,7 +9358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 250.19 46.99 0)
 			(effects
 				(font
@@ -9457,7 +9394,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "CN5")
+					(reference "CN7")
 					(unit 1)
 				)
 			)
@@ -9472,7 +9409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5efdd5a2-3cd0-4225-bc66-40b26dff058b")
-		(property "Reference" "R12"
+		(property "Reference" "R10"
 			(at 158.75 62.738 0)
 			(effects
 				(font
@@ -9526,15 +9463,15 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R12")
+					(reference "R10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 97.79 72.39 0)
+		(lib_id "PCM_Generic:P,0")
+		(at 97.79 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9542,8 +9479,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f546c54-781d-4a35-a98b-217a02f25730")
-		(property "Reference" "#PWR07"
-			(at 97.79 77.47 0)
+		(property "Reference" "#PWR05"
+			(at 97.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9552,7 +9489,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 97.663 76.2 0)
+			(at 97.663 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9561,16 +9498,25 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 73.66 0)
+			(at 97.79 74.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 2.54 2.54)
 				)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 73.66 0)
+			(at 97.79 74.93 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
+			(at 97.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9578,22 +9524,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 97.79 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
+		(pin "0"
 			(uuid "977c2ae5-c410-4670-a7d9-8c0844665d15")
 		)
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR07")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9608,7 +9545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fe31c35-a3b7-4721-b03e-3687abf243bf")
-		(property "Reference" "C13"
+		(property "Reference" "C10"
 			(at 182.88 127.508 90)
 			(effects
 				(font
@@ -9660,7 +9597,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "C13")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -9675,25 +9612,25 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "678843b5-6e3d-4663-8b89-d01b2250c7a1")
-		(property "Reference" "J7"
-			(at 101.6 43.18 0)
+		(property "Reference" "CN4"
+			(at 93.98 46.482 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify right bottom)
 			)
 		)
-		(property "Value" "Conn_01x05_Socket"
-			(at 78.994 47.244 0)
+		(property "Value" "PM2.54-1*5"
+			(at 97.028 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -9702,7 +9639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2207291800_ZHOURI-PM2-54-1-4_C5116530.pdf"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -9711,7 +9648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "Female header, single row, 01x05"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -9738,7 +9675,74 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "J7")
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Generic:P,0")
+		(at 175.26 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d60cca8-8677-4dd5-bf4a-09c3efa28b43")
+		(property "Reference" "#PWR015"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDE"
+			(at 175.133 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "0"
+			(uuid "3c4ffad3-8983-4e81-a3e5-91b8150ae017")
+		)
+		(instances
+			(project "Camping-LightRelay"
+				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9907,7 +9911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "772c0491-55eb-4dfb-bf50-f36081b9effc")
-		(property "Reference" "R10"
+		(property "Reference" "R8"
 			(at 102.87 104.648 90)
 			(effects
 				(font
@@ -9959,7 +9963,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R10")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -9975,23 +9979,23 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c3fe160-80bd-4104-abcd-56074e3b431d")
-		(property "Reference" "J3"
-			(at 135.382 42.418 0)
+		(property "Reference" "CN5"
+			(at 135.128 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 133.985 44.45 0)
+		(property "Value" "PM2.54-1*4"
+			(at 146.558 43.688 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 133.35 49.53 0)
 			(effects
 				(font
@@ -10000,7 +10004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2207291800_ZHOURI-PM2-54-1-4_C5116530.pdf"
 			(at 133.35 49.53 0)
 			(effects
 				(font
@@ -10033,7 +10037,7 @@
 		(instances
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "J3")
+					(reference "CN5")
 					(unit 1)
 				)
 			)
@@ -10115,7 +10119,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80a833d3-6d77-4b4d-8d66-9779aa95e298")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 158.75 99.568 0)
 			(effects
 				(font
@@ -10169,7 +10173,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -10253,7 +10257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ddb2d48-44d5-4a3b-abb5-7170f27b7fde")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR08"
 			(at 139.7 48.26 0)
 			(effects
 				(font
@@ -10303,7 +10307,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR040")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -10361,7 +10365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. part" "NFM18PC104R1C3D"
+		(property "Part Number" "NFM18PC104R1C3D"
 			(at 81.28 111.76 0)
 			(effects
 				(font
@@ -10466,7 +10470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97039815-8d11-4f4e-82f3-a17db6aa0b37")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR06"
 			(at 100.33 153.67 0)
 			(effects
 				(font
@@ -10517,76 +10521,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Jumper_2_Small_Bridged_1")
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 167.64 116.84 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9833ad5b-50de-4e0f-9d3d-f2053830f735")
-		(property "Reference" "J4"
-			(at 167.64 115.062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "J300"
-			(at 167.64 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lib:Junction_350mil"
-			(at 167.386 119.126 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, small symbol, bridged"
-			(at 167.64 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82d1d86f-c26b-4e03-a08d-895bea954f8c")
-		)
-		(pin "2"
-			(uuid "ee00ec7e-7a1c-46d1-80e9-c7d5a622ab28")
-		)
-		(instances
-			(project ""
-				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "J4")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -10601,7 +10536,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "984b834d-26ca-46e8-a074-8b5c5640e2e9")
-		(property "Reference" "R9"
+		(property "Reference" "R7"
 			(at 94.742 125.476 0)
 			(effects
 				(font
@@ -10655,7 +10590,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R9")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10671,7 +10606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98a68420-bde8-4640-9f12-1998612711c5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 129.54 153.67 0)
 			(effects
 				(font
@@ -10722,7 +10657,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -10737,7 +10672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9c0838f8-f2e3-4874-88e9-a1b7d960f284")
-		(property "Reference" "R11"
+		(property "Reference" "R9"
 			(at 136.398 112.522 90)
 			(effects
 				(font
@@ -10791,7 +10726,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R11")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10806,7 +10741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a777a1e3-9f77-49d4-bd73-966f1346b2bf")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 153.67 113.03 0)
 			(effects
 				(font
@@ -10858,7 +10793,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -10873,7 +10808,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a889749a-0969-42af-a905-f7feed4e6c98")
-		(property "Reference" "D9"
+		(property "Reference" "D5"
 			(at 198.12 58.166 90)
 			(effects
 				(font
@@ -10927,7 +10862,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "D9")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -10942,7 +10877,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac630c19-4780-43b2-b233-9b05fe0c12fb")
-		(property "Reference" "C14"
+		(property "Reference" "C11"
 			(at 204.978 50.546 0)
 			(effects
 				(font
@@ -11005,7 +10940,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "C14")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11081,7 +11016,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ6.0A")
-		(at 81.28 62.23 270)
+		(at 80.01 62.23 270)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -11089,7 +11024,7 @@
 		(dnp no)
 		(uuid "b2f4b8bd-bf03-4f7e-807c-0f1485b1d764")
 		(property "Reference" "D1"
-			(at 83.566 61.468 90)
+			(at 82.296 61.468 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11098,7 +11033,7 @@
 			)
 		)
 		(property "Value" "SMAJ6.0A"
-			(at 83.566 63.5 90)
+			(at 82.296 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11107,7 +11042,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 76.2 62.23 0)
+			(at 74.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11051,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 81.28 60.96 0)
+			(at 80.01 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11060,7 @@
 			)
 		)
 		(property "Description" "400W unidirectional Transient Voltage Suppressor, 6.0Vr, SMA(DO-214AC)"
-			(at 81.28 62.23 0)
+			(at 80.01 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11157,7 +11092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4c23691-494b-4941-b589-cf4de61f1486")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 159.766 128.016 0)
 			(effects
 				(font
@@ -11211,74 +11146,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDPWR")
-		(at 175.26 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7b883e4-cf6e-433b-b743-3a6210efa311")
-		(property "Reference" "#PWR012"
-			(at 175.26 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDE"
-			(at 175.133 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 175.26 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25e84fd4-9653-453d-b657-542014a4f312")
-		)
-		(instances
-			(project "Camping-LightRelay"
-				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR012")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11293,7 +11161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bd9cf629-093e-4772-bfac-86edf9d04586")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 167.132 128.016 0)
 			(effects
 				(font
@@ -11347,75 +11215,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 44.45 66.04 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7202694-051c-40b2-9bab-885ea582adc6")
-		(property "Reference" "J1"
-			(at 42.672 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "J300"
-			(at 41.91 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lib:Junction_300mil"
-			(at 44.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Junction 2 pole"
-			(at 44.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "de258457-6279-4785-b58b-b4ba3ac7cd8e")
-		)
-		(pin "2"
-			(uuid "43dc0649-110c-437e-b44a-eea4ef7e7b63")
-		)
-		(instances
-			(project "Camping-LightRelay"
-				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "J1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -11725,7 +11525,7 @@
 	)
 	(symbol
 		(lib_id "Device:FerriteBead")
-		(at 124.46 82.55 270)
+		(at 168.91 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11733,7 +11533,7 @@
 		(dnp no)
 		(uuid "d46e2152-8e06-4751-a86c-1ef898e1a043")
 		(property "Reference" "FB5"
-			(at 122.428 78.486 90)
+			(at 166.878 87.376 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11742,7 +11542,7 @@
 			)
 		)
 		(property "Value" "BLM18AG601SN1D"
-			(at 122.682 80.518 90)
+			(at 167.132 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11751,7 +11551,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 124.46 80.772 90)
+			(at 168.91 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11760,7 +11560,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 82.55 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11769,7 +11569,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead 0603 600Ohm/100MHz"
-			(at 124.46 82.55 0)
+			(at 168.91 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11793,74 +11593,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Small_Bridged")
-		(at 99.06 87.63 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d89ddee6-1012-4899-bfb3-4d64c35b4cf7")
-		(property "Reference" "J2"
-			(at 97.282 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "J300"
-			(at 96.52 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "lib:Junction_400mil"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Junction 2 pole"
-			(at 99.06 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86cf3bca-7d79-47d2-bc57-2183f5682b89")
-		)
-		(pin "2"
-			(uuid "e1ad8acc-ef47-4b84-b4c0-8faee5964c1d")
-		)
-		(instances
-			(project "Camping-LightRelay"
-				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 175.26 54.61 0)
 		(unit 1)
@@ -11869,7 +11601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddd15403-af3d-4341-add2-a7e3c6ae5693")
-		(property "Reference" "C12"
+		(property "Reference" "C9"
 			(at 173.99 57.912 0)
 			(effects
 				(font
@@ -11932,7 +11664,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "C12")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11948,7 +11680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e12b11c3-89c9-40f9-9c1c-d4c561335c7e")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 168.91 153.67 0)
 			(effects
 				(font
@@ -11999,7 +11731,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -12014,7 +11746,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eea89941-279b-4fc0-a19a-c9543654b4d1")
-		(property "Reference" "R18"
+		(property "Reference" "R14"
 			(at 182.88 134.874 90)
 			(effects
 				(font
@@ -12066,7 +11798,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R18")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -12082,7 +11814,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef19c144-0d5b-4226-b98d-2431e7c047e3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 161.29 153.67 0)
 			(effects
 				(font
@@ -12133,7 +11865,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12148,7 +11880,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6223fae-6d02-4d84-af4d-d93aca4e6147")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 60.96 99.568 0)
 			(effects
 				(font
@@ -12202,7 +11934,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -12217,7 +11949,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa3f952b-37b7-47ea-aa9d-e9caa3eebb49")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 143.256 124.46 0)
 			(effects
 				(font
@@ -12272,7 +12004,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "C9")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12356,7 +12088,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcd5206d-f588-4e3a-900a-51210c755621")
-		(property "Reference" "FB8"
+		(property "Reference" "FB4"
 			(at 139.7 63.754 0)
 			(effects
 				(font
@@ -12410,7 +12142,7 @@
 		(instances
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "FB8")
+					(reference "FB4")
 					(unit 1)
 				)
 			)
