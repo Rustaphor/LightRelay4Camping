@@ -4427,7 +4427,7 @@
 				)
 			)
 		)
-		(symbol "PCM_Diode_Schottky_AKL:VS-10BQ015"
+		(symbol "PCM_Diode_Schottky_AKL:BAT20J"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -4435,22 +4435,22 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "VS-10BQ015"
-				(at 0 2.54 0)
+			(property "Value" "BAT20J"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD_AKL:D_SMB"
+			(property "Footprint" "Diode_SMD_AKL:D_SOD-323"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4459,7 +4459,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.tme.eu/Document/5513742f757a8ba3a7dcc08c322eb306/VS-10BQ015.pdf"
+			(property "Datasheet" "https://www.tme.eu/Document/0e41d40b03e8c95ae2fd8af27383fa23/BAT20J.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4468,7 +4468,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "SMB Schottky diode, 15V, 1A, Alternate KiCAD Library"
+			(property "Description" "SOD-323 Schottky diode, 23V, 1A, Alternate KiCAD Library"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4477,7 +4477,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky VS-10BQ015"
+			(property "ki_keywords" "diode schottky BAT20J"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4495,7 +4495,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "VS-10BQ015_0_1"
+			(symbol "BAT20J_0_1"
 				(polyline
 					(pts
 						(xy -1.27 0) (xy 1.27 0)
@@ -4533,7 +4533,7 @@
 					)
 				)
 			)
-			(symbol "VS-10BQ015_1_1"
+			(symbol "BAT20J_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -6839,7 +6839,7 @@
 		(uuid "526aa21e-bf45-44db-be7d-2bae502b056a")
 	)
 	(junction
-		(at 238.76 77.47)
+		(at 234.95 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5fb455d8-9dfa-4a5b-8d5f-88a1336e80d6")
@@ -7055,7 +7055,7 @@
 		(uuid "d1146c5c-8baf-489d-b643-4f22c0935d69")
 	)
 	(junction
-		(at 246.38 99.06)
+		(at 245.11 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1299967-8fbe-4d84-ace2-ac4393de11c9")
@@ -7260,7 +7260,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 72.39) (xy 240.03 72.39)
+			(xy 231.14 72.39) (xy 236.22 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7320,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 99.06) (xy 246.38 99.06)
+			(xy 242.57 97.79) (xy 245.11 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7370,7 +7370,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 96.52) (xy 246.38 96.52)
+			(xy 242.57 95.25) (xy 245.11 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7590,7 +7590,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 91.44) (xy 248.92 91.44)
+			(xy 242.57 90.17) (xy 247.65 90.17)
 		)
 		(stroke
 			(width 0)
@@ -7870,7 +7870,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 93.98) (xy 248.92 93.98)
+			(xy 242.57 92.71) (xy 247.65 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8350,7 +8350,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 69.85) (xy 238.76 69.85)
+			(xy 236.22 69.85) (xy 234.95 69.85)
 		)
 		(stroke
 			(width 0)
@@ -8670,7 +8670,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 77.47) (xy 238.76 77.47)
+			(xy 236.22 77.47) (xy 234.95 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8990,7 +8990,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 77.47) (xy 238.76 80.01)
+			(xy 234.95 77.47) (xy 234.95 80.01)
 		)
 		(stroke
 			(width 0)
@@ -9000,7 +9000,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 74.93) (xy 238.76 77.47)
+			(xy 234.95 74.93) (xy 234.95 77.47)
 		)
 		(stroke
 			(width 0)
@@ -9110,7 +9110,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 96.52) (xy 246.38 99.06)
+			(xy 245.11 95.25) (xy 245.11 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9210,7 +9210,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 69.85) (xy 238.76 68.58)
+			(xy 234.95 69.85) (xy 234.95 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9470,7 +9470,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 99.06) (xy 248.92 99.06)
+			(xy 245.11 97.79) (xy 247.65 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9490,7 +9490,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 74.93) (xy 238.76 74.93)
+			(xy 236.22 74.93) (xy 234.95 74.93)
 		)
 		(stroke
 			(width 0)
@@ -9729,7 +9729,7 @@
 		(uuid "36f543bd-2bde-426f-a5b9-7e6bb7e28f1e")
 	)
 	(label "~{LOAD_ON}"
-		(at 237.49 72.39 180)
+		(at 231.14 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10027,7 +10027,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Generic:P,0")
-		(at 238.76 80.01 0)
+		(at 234.95 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10036,7 +10036,7 @@
 		(fields_autoplaced yes)
 		(uuid "009368e8-c7d6-4757-890c-35ba8119b2cf")
 		(property "Reference" "#PWR018"
-			(at 238.76 85.09 0)
+			(at 234.95 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +10045,7 @@
 			)
 		)
 		(property "Value" "GNDE"
-			(at 238.633 83.82 0)
+			(at 234.823 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +10054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 80.01 0)
+			(at 234.95 80.01 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -10063,7 +10063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 80.01 0)
+			(at 234.95 80.01 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -10072,7 +10072,7 @@
 			)
 		)
 		(property "Description" "global node 0; simplified functional (equipotential) bonding (FB); simplified frame/chassis"
-			(at 238.76 80.01 0)
+			(at 234.95 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10840,75 +10840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_Schottky_AKL:VS-10BQ015")
-		(at 147.32 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2811d75e-51ca-4009-8ea3-813aea788f54")
-		(property "Reference" "D6"
-			(at 135.382 98.806 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10BQ015"
-			(at 130.556 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMB"
-			(at 147.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/5513742f757a8ba3a7dcc08c322eb306/VS-10BQ015.pdf"
-			(at 147.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMB Schottky diode, 15V, 1A, Alternate KiCAD Library"
-			(at 147.32 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82f89c87-298d-42db-a9a0-83f59a855441")
-		)
-		(pin "2"
-			(uuid "08957279-540f-4fe3-8651-dd93a88f2a19")
-		)
-		(instances
-			(project "Camping-LightRelay"
-				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Generic:P,0")
 		(at 254 146.05 0)
 		(unit 1)
@@ -11525,7 +11456,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 244.8052 133.35 0)
 			(effects
 				(font
@@ -11977,7 +11908,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 238.76 68.58 0)
+		(at 234.95 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11985,7 +11916,7 @@
 		(dnp no)
 		(uuid "5389537a-707a-4601-8aa3-15a8c4078c68")
 		(property "Reference" "#PWR017"
-			(at 238.76 72.39 0)
+			(at 234.95 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11994,7 +11925,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 238.76 65.278 0)
+			(at 234.95 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12003,7 +11934,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 68.58 0)
+			(at 234.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12012,7 +11943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 68.58 0)
+			(at 234.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12021,7 +11952,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 238.76 68.58 0)
+			(at 234.95 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12328,6 +12259,75 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_Diode_Schottky_AKL:BAT20J")
+		(at 147.32 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ea58dbb-2c78-4b27-b262-432385391faa")
+		(property "Reference" "D6"
+			(at 137.922 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "BAT20J"
+			(at 140.208 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0e41d40b03e8c95ae2fd8af27383fa23/BAT20J.pdf"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-323 Schottky diode, 23V, 1A, Alternate KiCAD Library"
+			(at 147.32 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32e86978-3439-4706-8113-dddd46b9beb3")
+		)
+		(pin "1"
+			(uuid "4d651a3c-1b7d-44d2-bbb2-040ce7e72ae2")
+		)
+		(instances
+			(project "Camping-LightRelay"
+				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 129.54 54.61 0)
 		(unit 1)
@@ -12561,7 +12561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 198.12 113.3348 0)
 			(effects
 				(font
@@ -13161,7 +13161,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23_BigPads"
 			(at 90.17 52.07 0)
 			(effects
 				(font
@@ -13632,16 +13632,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
-		(at 245.11 72.39 0)
+		(at 241.3 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8ff95e73-ac79-45e5-b407-4ea8e3afa44a")
 		(property "Reference" "J2"
-			(at 246.38 72.3899 0)
+			(at 242.57 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13649,8 +13648,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 246.38 74.9299 0)
+		(property "Value" "~"
+			(at 242.57 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13658,8 +13657,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 245.11 72.39 0)
+		(property "Footprint" "lib:PinSolder_1x04_P2.54mm"
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,7 +13667,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 72.39 0)
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13677,7 +13676,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 245.11 72.39 0)
+			(at 241.3 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13701,75 +13700,6 @@
 			(project ""
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Diode_Schottky_AKL:VS-10BQ015")
-		(at 119.38 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0595da1-d5a2-4199-a410-a24a2ecf3af9")
-		(property "Reference" "D3"
-			(at 119.38 73.152 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "10BQ015"
-			(at 119.38 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMB"
-			(at 119.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/5513742f757a8ba3a7dcc08c322eb306/VS-10BQ015.pdf"
-			(at 119.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMB Schottky diode, 15V, 1A, Alternate KiCAD Library"
-			(at 119.38 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43b07da4-2165-4e07-aad8-1208b7749950")
-		)
-		(pin "2"
-			(uuid "70d56509-a5bb-47d3-a281-f2aecfb87706")
-		)
-		(instances
-			(project "Camping-LightRelay"
-				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -13869,7 +13799,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 203.5048 87.63 0)
 			(effects
 				(font
@@ -14353,7 +14283,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD_AKL:SOT-23"
+		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23_BigPads"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -14590,7 +14520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 198.12 106.9848 0)
 			(effects
 				(font
@@ -14727,7 +14657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lib:Eaton_KR-5R5C155"
 			(at 152.0952 121.92 0)
 			(effects
 				(font
@@ -14982,32 +14912,33 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
-		(at 238.76 93.98 0)
+		(at 237.49 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bffbb567-62ba-4e45-943d-a9094bbcd45a")
 		(property "Reference" "J1"
-			(at 239.395 86.36 0)
+			(at 238.76 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 239.395 88.9 0)
+		(property "Value" "PH2.54-07-04PWD"
+			(at 236.22 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
-		(property "Footprint" ""
-			(at 238.76 93.98 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal"
+			(at 237.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15016,7 +14947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 93.98 0)
+			(at 237.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15024,8 +14955,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 238.76 93.98 0)
+		(property "Description" "Connector pitch 2.54 right angle"
+			(at 237.49 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15118,6 +15049,75 @@
 			(project "Camping-LightRelay"
 				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Diode_Schottky_AKL:BAT20J")
+		(at 119.38 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7ac03b2-5bcc-498e-a320-f9f6cc84cc78")
+		(property "Reference" "D3"
+			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "BAT20J"
+			(at 119.38 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0e41d40b03e8c95ae2fd8af27383fa23/BAT20J.pdf"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-323 Schottky diode, 23V, 1A, Alternate KiCAD Library"
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "159d9263-29c8-4be9-b9c2-02839786eb7f")
+		)
+		(pin "1"
+			(uuid "2e2e3160-f0ff-40e7-b10c-a7bad7e64bef")
+		)
+		(instances
+			(project ""
+				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15367,7 +15367,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.1452 134.62 0)
 			(effects
 				(font
@@ -15801,7 +15801,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.3052 146.05 0)
 			(effects
 				(font
@@ -15992,75 +15992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_Schottky_AKL:VS-10BQ015")
-		(at 179.07 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f47fc3c3-93aa-4731-bce0-a73d45203586")
-		(property "Reference" "D8"
-			(at 184.658 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "10BQ015"
-			(at 185.674 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Diode_SMD_AKL:D_SMB"
-			(at 179.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/Document/5513742f757a8ba3a7dcc08c322eb306/VS-10BQ015.pdf"
-			(at 179.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMB Schottky diode, 15V, 1A, Alternate KiCAD Library"
-			(at 179.07 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf84c9fa-0eaa-479a-8a4e-4ba00e85c051")
-		)
-		(pin "2"
-			(uuid "8ebd35f9-07fe-4faa-aa6a-5a3e32db3b96")
-		)
-		(instances
-			(project "Camping-LightRelay"
-				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 154.94 97.79 0)
 		(unit 1)
@@ -16198,8 +16129,77 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "PCM_Diode_Schottky_AKL:BAT20J")
+		(at 179.07 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fda65465-1d5b-4748-b319-2b65d4702297")
+		(property "Reference" "D8"
+			(at 178.308 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "BAT20J"
+			(at 179.324 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/0e41d40b03e8c95ae2fd8af27383fa23/BAT20J.pdf"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOD-323 Schottky diode, 23V, 1A, Alternate KiCAD Library"
+			(at 179.07 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6bca844e-cf8b-450c-9193-547518f36f5e")
+		)
+		(pin "1"
+			(uuid "4a686326-3759-4b43-aadf-a4296fda24a6")
+		)
+		(instances
+			(project "Camping-LightRelay"
+				(path "/5869d0d8-0214-47f7-a5b8-c2b5f6821b5d"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 248.92 86.995)
+		(at 247.65 85.725)
 		(size 31.75 16.51)
 		(fields_autoplaced yes)
 		(stroke
@@ -16211,7 +16211,7 @@
 		)
 		(uuid "65ad4b19-8f8d-472a-8529-1f5862972991")
 		(property "Sheetname" "Субмодуль фотореле"
-			(at 248.92 86.2834 0)
+			(at 247.65 85.0134 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16220,7 +16220,7 @@
 			)
 		)
 		(property "Sheetfile" "lsensor-module.kicad_sch"
-			(at 248.92 104.0896 0)
+			(at 247.65 102.8196 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16229,7 +16229,7 @@
 			)
 		)
 		(pin "VSS" passive
-			(at 248.92 99.06 180)
+			(at 247.65 97.79 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16239,7 +16239,7 @@
 			(uuid "bb00c242-4f4b-4a3c-9e09-b957ec660e4c")
 		)
 		(pin "+5V" input
-			(at 248.92 91.44 180)
+			(at 247.65 90.17 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16249,7 +16249,7 @@
 			(uuid "9e8982d1-f430-4d23-9ca1-b333da11c4c2")
 		)
 		(pin "~{RELAY_ON}" output
-			(at 248.92 93.98 180)
+			(at 247.65 92.71 180)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5492,7 +5492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "lib:TRIM_PTN10-A01HB20"
+		(property "Footprint" "lib:Potentiometer_Bochen_PT10"
 			(at 73.66 77.47 0)
 			(effects
 				(font
