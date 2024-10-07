@@ -539,6 +539,10 @@
       "Net-(C12-Pad1)": "PUSB",
       "Net-(CN1-SHIELD)": "PTYPC",
       "Net-(CN1-VBUS-PadA9)": "PUSB",
+      "Net-(CN2-GND1)": "PGND",
+      "Net-(CN2-Shield)": "PGND",
+      "Net-(CN2-VBUS1)": "PUSB",
+      "Net-(CN3-Shield)": "PGND",
       "Net-(CN4-GND1)": "PGND",
       "Net-(CN4-Pin_1)": "PUSB",
       "Net-(CN4-Shield)": "PGND",
@@ -550,16 +554,22 @@
       "Net-(CN7-Shield)": "PGND",
       "Net-(D1-A1)": "PUSB",
       "Net-(D1-A2)": "PGND",
-      "Net-(D3-K)": "PUSB",
+      "Net-(D3-A)": "PUSB",
+      "Net-(D3-K)": "PA",
       "Net-(D4-A2)": "PUSB",
+      "Net-(D5-A2)": "PUSB",
       "Net-(D7-K)": "PA",
+      "Net-(D8-A)": "PA",
+      "Net-(D9-A)": "PA",
       "Net-(J1-B)": "PUSB",
       "Net-(J2-A)": "PA",
       "Net-(J2-B)": "PA",
       "Net-(J4-A)": "PA",
       "Net-(J4-B)": "PA",
       "Net-(J7-Pin_1)": "PUSB",
-      "Net-(U1.1-V+)": "PA"
+      "Net-(U1.1-V+)": "PA",
+      "Net-(U6.1-V+)": "PA",
+      "VCC": "PA"
     },
     "netclass_patterns": [
       {
@@ -721,8 +731,8 @@
       "Корневой лист"
     ],
     [
-      "9fca3833-070a-4df1-9895-844ed64befb4",
-      "ScapPwrStorageModule"
+      "65ad4b19-8f8d-472a-8529-1f5862972991",
+      "Субмодуль фотореле"
     ]
   ],
   "text_variables": {}
