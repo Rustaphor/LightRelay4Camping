@@ -3734,8 +3734,8 @@
 		)
 		(symbol "LightRelay:ME2108A50M"
 			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
+			(in_bom yes)
+			(on_board yes)
 			(property "Reference" "U"
 				(at -5.334 5.334 0)
 				(effects
@@ -10198,7 +10198,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "PCM_Ferrite_THT_AKL:Ferrite_L8.0mm_D3.5mm_P12.70mm"
+		(property "Footprint" "PCM_Ferrite_THT_AKL:Ferrite_L8.0mm_D3.5mm_P3.81mm_Vertical"
 			(at 69.85 30.988 90)
 			(effects
 				(font
@@ -12483,7 +12483,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "42"
+		(property "Value" "43"
 			(at 94.742 37.084 0)
 			(effects
 				(font
@@ -12492,7 +12492,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0805_2012Metric_Pad1.15x1.40mm"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 90.932 36.83 90)
 			(effects
 				(font
@@ -13161,7 +13161,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23_BigPads"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 90.17 52.07 0)
 			(effects
 				(font
@@ -14283,7 +14283,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "PCM_Package_TO_SOT_SMD_AKL:SOT-23_BigPads"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 81.28 93.98 0)
 			(effects
 				(font
@@ -15298,7 +15298,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_Ferrite_THT_AKL:Ferrite_L8.0mm_D3.5mm_P12.70mm"
+		(property "Footprint" "PCM_Ferrite_THT_AKL:Ferrite_L8.0mm_D3.5mm_P3.81mm_Vertical"
 			(at 160.02 30.988 90)
 			(effects
 				(font
@@ -15869,7 +15869,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-50xx"
+		(property "Footprint" "Inductor_THT:L_Radial_D6.0mm_P4.00mm"
 			(at 161.29 86.36 0)
 			(effects
 				(font
@@ -15896,7 +15896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" " CY43-47UH"
+		(property "Part Number" "XR4*6-470K-L"
 			(at 161.036 87.884 90)
 			(effects
 				(font
@@ -15925,8 +15925,8 @@
 		(at 179.07 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "eff2625e-1805-4b97-af76-b2dc34b87b3d")
 		(property "Reference" "U4"

@@ -24,4 +24,5 @@
 # Зазоры в зоне разводки разъема USB Typec-C
 (rule usb_typec_clearances
 	(condition "A.enclosedByArea('usbtypec_zone')")
+	(constraint track_width (min 15mil) (opt 18mil))
 	(constraint clearance (min 15mil) (opt 18mm)))

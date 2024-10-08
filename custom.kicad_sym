@@ -4,8 +4,8 @@
 	(generator_version "8.0")
 	(symbol "ME2108A50M"
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(property "Reference" "U"
 			(at -5.334 5.334 0)
 			(effects
