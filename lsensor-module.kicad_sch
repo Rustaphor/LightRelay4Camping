@@ -5492,7 +5492,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "lib:Potentiometer_Bochen_PT10"
+		(property "Footprint" "lib:TRIM_PTN10-A01HB20"
 			(at 73.66 77.47 0)
 			(effects
 				(font
@@ -5519,7 +5519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" " PTN10-A200SB20"
+		(property "Part Number" "PTN10-A200HB20"
 			(at 76.962 88.392 90)
 			(effects
 				(font
