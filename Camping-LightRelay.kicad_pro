@@ -101,7 +101,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "warning",
         "text_height": "warning",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -118,21 +118,21 @@
         "max_error": 0.005,
         "min_clearance": 0.2032,
         "min_connection": 0.3,
-        "min_copper_edge_clearance": 0.508,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.2032,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 1.0,
         "min_microvia_diameter": 0.5,
-        "min_microvia_drill": 0.1,
+        "min_microvia_drill": 0.3,
         "min_resolved_spokes": 4,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.5,
         "min_track_width": 0.3,
-        "min_via_annular_width": 0.3,
+        "min_via_annular_width": 0.2,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
-        "use_height_for_length_calcs": true
+        "use_height_for_length_calcs": false
       },
       "teardrop_options": [
         {
@@ -180,6 +180,7 @@
       "track_widths": [
         0.0,
         0.381,
+        0.4572,
         0.508,
         0.6096,
         1.27,
@@ -215,6 +216,18 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.3208,
+          "drill": 0.5
+        },
+        {
+          "diameter": 1.524,
+          "drill": 0.5
+        },
+        {
+          "diameter": 1.651,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false
@@ -448,7 +461,9 @@
     "pinned_footprint_libs": [
       "lib"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "LightRelay"
+    ]
   },
   "meta": {
     "filename": "Camping-LightRelay.kicad_pro",
@@ -463,13 +478,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 1.3208,
+        "microvia_diameter": 0.9906,
         "microvia_drill": 0.4,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
-        "via_diameter": 0.6096,
+        "via_diameter": 1.016,
         "via_drill": 0.5,
         "wire_width": 6
       },
@@ -480,13 +495,13 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 1.3208,
+        "microvia_diameter": 0.9906,
         "microvia_drill": 0.4,
         "name": "PA",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6096,
-        "via_diameter": 0.6096,
+        "via_diameter": 1.016,
         "via_drill": 0.5,
         "wire_width": 6
       },
@@ -497,14 +512,14 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 1.3208,
+        "microvia_diameter": 0.9906,
         "microvia_drill": 0.4,
         "name": "PGND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8128,
-        "via_diameter": 0.6096,
-        "via_drill": 0.5,
+        "via_diameter": 1.1938,
+        "via_drill": 0.6,
         "wire_width": 6
       },
       {
@@ -514,14 +529,14 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 1.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.9906,
+        "microvia_drill": 0.4,
         "name": "PUSB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6096,
-        "via_diameter": 0.6096,
-        "via_drill": 0.3,
+        "via_diameter": 1.1938,
+        "via_drill": 0.6,
         "wire_width": 6
       }
     ],
@@ -534,19 +549,40 @@
       "Net-(C1-Pad1)": "PTYPC",
       "Net-(C1-Pad2)": "PTYPC",
       "Net-(C11-Pad1)": "PUSB",
+      "Net-(C12-Pad1)": "PUSB",
       "Net-(CN1-SHIELD)": "PTYPC",
       "Net-(CN1-VBUS-PadA9)": "PUSB",
+      "Net-(CN2-GND1)": "PGND",
+      "Net-(CN2-Shield)": "PGND",
+      "Net-(CN2-VBUS1)": "PUSB",
+      "Net-(CN3-Shield)": "PGND",
       "Net-(CN4-GND1)": "PGND",
+      "Net-(CN4-Pin_1)": "PUSB",
       "Net-(CN4-Shield)": "PGND",
       "Net-(CN4-VBUS1)": "PUSB",
       "Net-(CN5-Shield)": "PGND",
+      "Net-(CN6-GND1)": "PGND",
+      "Net-(CN6-Shield)": "PGND",
+      "Net-(CN6-VBUS1)": "PUSB",
+      "Net-(CN7-Shield)": "PGND",
       "Net-(D1-A1)": "PUSB",
       "Net-(D1-A2)": "PGND",
-      "Net-(D3-K)": "PUSB",
+      "Net-(D3-A)": "PUSB",
+      "Net-(D3-K)": "PA",
+      "Net-(D4-A2)": "PUSB",
+      "Net-(D5-A2)": "PUSB",
+      "Net-(D7-K)": "PA",
+      "Net-(D8-A)": "PA",
+      "Net-(D9-A)": "PA",
       "Net-(J1-B)": "PUSB",
+      "Net-(J2-A)": "PA",
+      "Net-(J2-B)": "PA",
       "Net-(J4-A)": "PA",
       "Net-(J4-B)": "PA",
-      "Net-(U1.1-V+)": "PA"
+      "Net-(J7-Pin_1)": "PUSB",
+      "Net-(U1.1-V+)": "PA",
+      "Net-(U6.1-V+)": "PA",
+      "VCC": "PA"
     },
     "netclass_patterns": [
       {
@@ -554,12 +590,12 @@
         "pattern": ""
       },
       {
-        "netclass": "PUSB",
-        "pattern": "+5V"
-      },
-      {
         "netclass": "PGND",
         "pattern": "GND*"
+      },
+      {
+        "netclass": "PA",
+        "pattern": "VCC"
       }
     ]
   },
@@ -598,48 +634,42 @@
           "group_by": false,
           "label": "Reference",
           "name": "Reference",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mfr. part",
-          "name": "Mfr. part",
           "show": false
         },
         {
@@ -650,8 +680,8 @@
         },
         {
           "group_by": false,
-          "label": "Mfg. part",
-          "name": "Mfg. part",
+          "label": "Part Number",
+          "name": "Part Number",
           "show": false
         }
       ],
@@ -659,7 +689,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": ""
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -704,6 +734,10 @@
     [
       "5869d0d8-0214-47f7-a5b8-c2b5f6821b5d",
       "Корневой лист"
+    ],
+    [
+      "65ad4b19-8f8d-472a-8529-1f5862972991",
+      "Субмодуль фотореле"
     ]
   ],
   "text_variables": {}

@@ -1,27 +1,28 @@
 (version 1)
 
 # Зазоры между проводниками питания
-(rule power2power_clearance
+(rule POWER2POWER_clearances
 	(condition "A.NetClass == 'PUSB' || A.NetClass == 'PA' && B.NetClass == 'PGND'")
 	(constraint clearance (min 15mil) (opt 50mm)))
 
 # Зазоры под ЧИП-резисторами,конденсаторами,индуктивностями,транзисторами
-(rule smd_under_clearance
+(rule SMDFOOTPRINTS_under_clearance
 	(condition "A.intersectsCourtyard('Resistor_SMD:R_*') || A.intersectsCourtyard('Capacitor_SMD:C_*') || A.intersectsCourtyard('Inductor_SMD:L_*') || A.intersectsCourtyard('Package_TO_SOT_SMD:SOT-*')")
 	(constraint clearance (min 8mil)))
 
-# Минимальные толщины проводников питания
-(rule powerlines_min_width
-	(condition "A.NetClass == 'PA' || A.NetClass == 'PUSB' || A.NetClass == 'PGND'")
-	(constraint track_width (min 12mil)))
+# Минимальные толщины проводников питания при небольшой длинне (для прохода под выводами компонентов)
+(rule POWERLINE_min_width
+	(condition "(A.NetClass == 'PA' || A.NetClass == 'PUSB' || A.NetClass == 'PGND') && A.Max_Length < 10mm")
+	(constraint track_width (min 15mil) (opt 18mm)))
 
 # Толщина дорожек питания в зоне разводки разъема USB Typec-C
-(rule usb_typec_powerline_width
+(rule USB_TYPEC_powerline_width
 	(condition "A.enclosedByArea('usbtypec_zone') && A.NetClass == 'PUSB'")
-	(constraint track_width (min 20mil) (opt 30mil))
-	(constraint clearance (min 18mil) (opt 60mm)))
+	(constraint track_width (min 20mil) (opt 30mil) (max 31,49606mil))
+	(constraint clearance (min 8mil) (opt 18mm)))
 
 # Зазоры в зоне разводки разъема USB Typec-C
-(rule usb_typec_clearances
-	(condition "A.enclosedByArea('usbtypec_zone')")
-	(constraint clearance (min 15mil) (opt 18mm)))
+(rule USB_TYPEC_clearances
+	(condition "A.memberOfFootprint('Connector_USB:USB_C*')")
+	(constraint track_width (min 12mil) (opt 18mil) (max 31,49606mil))
+	(constraint clearance (min 8mil)))
