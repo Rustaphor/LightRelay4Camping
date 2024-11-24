@@ -2967,150 +2967,6 @@
 				)
 			)
 		)
-		(symbol "Diode:BZV55C6V8"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BZV55C6V8"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_MiniMELF"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "6.8V, 500mW, 5%, Zener diode, MiniMELF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*MiniMELF*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BZV55C6V8_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BZV55C6V8_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:SMAJ6.0A"
 			(pin_numbers hide)
 			(pin_names
@@ -3939,6 +3795,151 @@
 				)
 			)
 		)
+		(symbol "PCM_Diode_AKL:1N4148WS"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WS"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD_AKL:D_SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.octopart.com/1N4148WS-13-F-Diodes-Inc.-datasheet-11839050.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SOD-323 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode 1N4148WS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WS_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "1N4148WS_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_Diode_Schottky_AKL:BAT20J"
 			(pin_numbers hide)
 			(pin_names
@@ -4084,6 +4085,187 @@
 				)
 			)
 		)
+		(symbol "PCM_Diode_TVS_AKL:SD05C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SD05C"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD_AKL:D_SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/d78713adc390f06d220fb7a55d4c6ae5/sdxxc.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bidirectional TVS Diode, 5V, 350W, Alternate KiCAD Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode TVS bidirectional SD-C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SD05C_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SD05C_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "PCM_Generic:P,0"
 			(power)
 			(pin_numbers hide)
@@ -4183,6 +4365,7 @@
 			)
 		)
 		(symbol "PCM_Transistor_BJT_AKL:BC817"
+			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4360,6 +4543,7 @@
 			)
 		)
 		(symbol "PCM_Transistor_MOSFET_AKL:FDV301N"
+			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6279,12 +6463,6 @@
 		(uuid "331b0e02-2b0d-416e-955d-94d0b21898b4")
 	)
 	(junction
-		(at 129.54 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "379748a9-8292-4ef2-903e-18119a547cdf")
-	)
-	(junction
 		(at 139.7 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6559,6 +6737,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d993a7ca-4a1c-4896-8f8f-a83e589ca4d2")
+	)
+	(junction
+		(at 129.54 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd94de37-cdff-4ef7-adbb-0aa4af5fe7a7")
 	)
 	(junction
 		(at 151.13 86.36)
@@ -7106,6 +7290,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 36.83) (xy 124.46 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32ad0d80-b2e4-486b-9839-7dcfb88f52f1")
+	)
+	(wire
+		(pts
 			(xy 135.89 29.21) (xy 137.16 29.21)
 		)
 		(stroke
@@ -7306,16 +7500,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 34.29) (xy 124.46 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "470e6ada-445e-4282-8d8c-80bc184064c2")
-	)
-	(wire
-		(pts
 			(xy 135.89 34.29) (xy 137.16 34.29)
 		)
 		(stroke
@@ -7463,6 +7647,16 @@
 			(type default)
 		)
 		(uuid "52b45849-8798-4f26-9137-82675cf63c36")
+	)
+	(wire
+		(pts
+			(xy 124.46 49.53) (xy 129.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b4ba57-034e-457b-931d-a2510edcc722")
 	)
 	(wire
 		(pts
@@ -7726,6 +7920,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 49.53) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adb93b1-5826-40d9-89b4-0fc0faf015c9")
+	)
+	(wire
+		(pts
 			(xy 134.62 22.86) (xy 139.7 22.86)
 		)
 		(stroke
@@ -7803,16 +8007,6 @@
 			(type default)
 		)
 		(uuid "77878773-c0a4-4c4a-867a-b40e0853ae76")
-	)
-	(wire
-		(pts
-			(xy 129.54 40.64) (xy 129.54 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77a9f08f-b84d-48db-9fe7-6b979896db25")
 	)
 	(wire
 		(pts
@@ -8406,6 +8600,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 40.64) (xy 129.54 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b757a041-6b9f-4754-bb3a-6f0d5ada85ef")
+	)
+	(wire
+		(pts
 			(xy 33.02 63.5) (xy 35.56 63.5)
 		)
 		(stroke
@@ -8413,16 +8617,6 @@
 			(type default)
 		)
 		(uuid "b87114fc-bf3b-433e-b032-9bbedfb11de8")
-	)
-	(wire
-		(pts
-			(xy 129.54 45.72) (xy 124.46 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b962fb07-c969-4770-b759-5e073039acd7")
 	)
 	(wire
 		(pts
@@ -8493,16 +8687,6 @@
 			(type default)
 		)
 		(uuid "c2cd47d7-c37d-4a00-a9b4-f74a5a8eb344")
-	)
-	(wire
-		(pts
-			(xy 124.46 45.72) (xy 124.46 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c313eb55-798d-4023-a7d9-9dff097bdd7f")
 	)
 	(wire
 		(pts
@@ -8866,6 +9050,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 49.53) (xy 124.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49e49d1-4c68-41de-845d-2a33ea195bbc")
+	)
+	(wire
+		(pts
 			(xy 83.82 101.6) (xy 83.82 105.41)
 		)
 		(stroke
@@ -8893,16 +9087,6 @@
 			(type default)
 		)
 		(uuid "fa1b0359-cb17-4aba-9a25-82911fef9b29")
-	)
-	(wire
-		(pts
-			(xy 129.54 45.72) (xy 129.54 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6e1b68-8213-4022-84ae-d80cd8686453")
 	)
 	(wire
 		(pts
@@ -8999,25 +9183,6 @@
 			(type none)
 		)
 		(uuid fc1b9ccb-62f2-4f54-9a4a-5bb481296273)
-	)
-	(text_box "\nOptional: Устанавливается по желанию. Для уменьшения энергопотребления применен ультраяркий светодиод при тусклом режиме свечения R10=${507431df-4b9d-46dd-b7d2-ad6650b298d5:VALUE} "
-		(exclude_from_sim yes)
-		(at 21.59 117.475 0)
-		(size 66.675 71.12)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "8d808f81-4842-43ce-be48-c6eae6a4bba2")
 	)
 	(text "OR"
 		(exclude_from_sim no)
@@ -10262,7 +10427,7 @@
 		(dnp no)
 		(uuid "2978e2ed-bbc1-4d45-a31b-1a62adb66612")
 		(property "Reference" "R2"
-			(at 88.646 77.978 0)
+			(at 88.138 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10270,8 +10435,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5.1k 1%"
-			(at 87.63 78.486 0)
+		(property "Value" "5.1k"
+			(at 88.138 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,6 +10469,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 89.916 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify top)
 			)
 		)
 		(pin "1"
@@ -10571,16 +10745,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:BZV55C6V8")
-		(at 124.46 40.64 270)
+		(lib_id "PCM_Diode_TVS_AKL:SD05C")
+		(at 124.46 41.91 270)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "336f03da-2f62-4e09-83c3-9cb65dc0a7e7")
 		(property "Reference" "D4"
-			(at 120.904 43.18 90)
+			(at 121.92 41.402 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10588,8 +10762,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "BZV55C6V8"
-			(at 123.19 43.942 90)
+		(property "Value" "SD05C"
+			(at 122.174 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10597,8 +10771,8 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_MiniMELF"
-			(at 120.015 40.64 0)
+		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
+			(at 124.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10606,8 +10780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BZV55_SER.pdf"
-			(at 124.46 40.64 0)
+		(property "Datasheet" "https://www.tme.eu/Document/d78713adc390f06d220fb7a55d4c6ae5/sdxxc.pdf"
+			(at 124.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10615,8 +10789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "6.8V, 500mW, 5%, Zener diode, MiniMELF"
-			(at 124.46 40.64 0)
+		(property "Description" "Bidirectional TVS Diode, 5V, 350W, Alternate KiCAD Library"
+			(at 124.46 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11201,7 +11375,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "470"
 			(at 156.464 38.862 0)
 			(effects
 				(font
@@ -11691,7 +11865,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "2.7k"
 			(at 127.508 55.88 0)
 			(effects
 				(font
@@ -11829,7 +12003,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "43"
+		(property "Value" "47 1W"
 			(at 94.742 37.084 0)
 			(effects
 				(font
@@ -11838,7 +12012,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical"
 			(at 90.932 36.83 90)
 			(effects
 				(font
@@ -12696,7 +12870,7 @@
 		(dnp no)
 		(uuid "7e346269-e754-4c8f-b60e-6cd3e420283c")
 		(property "Reference" "R1"
-			(at 79.756 74.422 0)
+			(at 79.248 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,8 +12878,8 @@
 				(justify right bottom)
 			)
 		)
-		(property "Value" "5.1k 1%"
-			(at 79.502 75.184 0)
+		(property "Value" "5.1k"
+			(at 75.946 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,6 +12912,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 79.502 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right top)
 			)
 		)
 		(pin "1"
@@ -14046,7 +14229,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Diode_Schottky_AKL:BAT20J")
+		(lib_id "PCM_Diode_AKL:1N4148WS")
 		(at 119.38 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14060,16 +14243,14 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
-		(property "Value" "BAT20J"
-			(at 119.38 73.152 0)
+		(property "Value" "1N4148WS"
+			(at 119.38 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify top)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
@@ -14081,7 +14262,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.tme.eu/Document/0e41d40b03e8c95ae2fd8af27383fa23/BAT20J.pdf"
+		(property "Datasheet" "https://datasheet.octopart.com/1N4148WS-13-F-Diodes-Inc.-datasheet-11839050.pdf"
 			(at 119.38 77.47 0)
 			(effects
 				(font
@@ -14090,7 +14271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SOD-323 Schottky diode, 23V, 1A, Alternate KiCAD Library"
+		(property "Description" "SOD-323 Diode, Small Signal, Fast Switching, 75V, 150mA, 4ns, Alternate KiCad Library"
 			(at 119.38 77.47 0)
 			(effects
 				(font
