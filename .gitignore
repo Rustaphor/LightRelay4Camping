@@ -35,5 +35,6 @@ fp-info-cache
 # Exported files
 *.xml
 *.csv
+*.bom
 production/
 fabrication-toolkit-options.json
