@@ -229,7 +229,7 @@ Pin="6",a,9,3,-3,-3
 
 [Circuit]
 Window Placement=2,3, -1,-1, -8,-31, 52,52,1368,478
-Default Object=Color=#000080,Width=2
+Default Object=Color=#000080,Pattern=Dash6
 Default Object Font=Height=-15,FStyle=0,Color=#000080,Name=Arial
 Default Object Apply Border To Text=No
 Default Object Apply Fill To Text=No
@@ -1383,7 +1383,7 @@ PlusMark=False
 MinorLog25=Off
 LabelMinor=Off
 DataPoints=False
-Token=False
+Token=True
 Ruler=False
 XAxisGrids=True
 YAxisGrids=True
@@ -1452,6 +1452,8 @@ Num Out Format=3
 Num Out HideNonSelected=False
 Num Out UseActualDataPoints=False
 UserFileName="D:\MyDocuments\Schematics\LightRelay4Camping\Sims\LSenseComparator.USR"
+Wav SampleRate=11025
+Wav Nbits=16
 AutoSaveWave=False
 Wave Format=16E
 State Variables Format=5E
@@ -1573,6 +1575,46 @@ ALIGNBOTTOM=No
 [APage]
 Analysis=DC
 Name="MAIN"
+
+[AObject]
+Analysis=DC
+Object=Marker
+CBorder=#000080
+Pattern=Dash6
+w=0
+AliasID1=1
+MarkerType=VL
+MarkerX=390204
+
+[AObject]
+Analysis=DC
+Object=Marker
+CBorder=#000080
+Pattern=Dash6
+w=0
+AliasID1=1
+MarkerType=VL
+MarkerX=10453.7
+
+[AObject]
+Analysis=DC
+Object=Marker
+CBorder=#000080
+Pattern=Dash6
+w=1
+AliasID1=2
+MarkerType=VL
+MarkerX=390204
+
+[AObject]
+Analysis=DC
+Object=Marker
+CBorder=#000080
+Pattern=Dash6
+w=1
+AliasID1=2
+MarkerType=VL
+MarkerX=10453.7
 
 [Monte Carlo Options]
 Analysis=Transient
@@ -1761,10 +1803,10 @@ Sweep2 type=None
 Analysis=DC
 Plt=1
 AliasID=1
-XExp=DCINPUT1,Rhotoresistor R3 (kOhms)
-YExp=V(SET_lvl)
+XExp=DCINPUT1,Rhotoresistor R3 (Ohms)
+YExp=V(SET_lvl),R3 (Ohms)
 XRng=Rph_max,Rph_min
-YRng=10
+YRng=5,0
 Options=LINEARX,LINEARY
 Range Grid Y=2
 Enable=Enable
@@ -1772,9 +1814,10 @@ CS=Normal
 Line Color=#0000FF
 Text Color=#0000FF
 Rainbow=False
+LWdth=2
 VFmtX=3
 VFmtY=3
-ScaleFactorX="K"
+ScaleFactorX="None"
 ScaleFactorY="None"
 ScaleUnitsX="Ohms"
 ScaleUnitsY="Auto"
@@ -1787,8 +1830,8 @@ NOFmtY=3E
 Analysis=DC
 Plt=2
 AliasID=2
-XExp=DCINPUT1,Rhotoresistor R3 (kOhms)
-YExp=V(OUT),Output Voltage
+XExp=DCINPUT1,Rhotoresistor R3 (Ohms)
+YExp=V(OUT),Comparator Out Voltage
 XRng=Rph_max,Rph_min
 YRng=5,0
 Options=LINEARX,LINEARY
@@ -1802,7 +1845,7 @@ Rainbow=True
 LWdth=2
 VFmtX=3
 VFmtY=3
-ScaleFactorX="K"
+ScaleFactorX="None"
 ScaleFactorY="None"
 ScaleUnitsX="Ohms"
 ScaleUnitsY="Auto"
@@ -2052,5 +2095,4 @@ GenerateExcel=False
 GenerateText=False
 NumberOfBranchesToDisplay=10
 FileName
-Expr=Low_Y(V(OUT),1)
-Expr=X_Level(V(OUT),1,1,2)
+Expr=Low_X(V(OUT),1)
