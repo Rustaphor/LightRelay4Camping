@@ -6463,12 +6463,6 @@
 		(uuid "331b0e02-2b0d-416e-955d-94d0b21898b4")
 	)
 	(junction
-		(at 139.7 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38d85abf-7b31-4934-858d-83bffa6f2252")
-	)
-	(junction
 		(at 105.41 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6505,7 +6499,7 @@
 		(uuid "4fbf04ac-68ec-479d-b0e0-e5d972995317")
 	)
 	(junction
-		(at 121.92 156.21)
+		(at 119.38 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51f12cdb-60d8-48e4-860a-712720b77bcc")
@@ -6643,6 +6637,18 @@
 		(uuid "9c5e1aad-c46f-40ee-b84e-d642ef208f2d")
 	)
 	(junction
+		(at 139.7 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e6ae18c-5db5-4fd5-ae97-69d6e47c2a13")
+	)
+	(junction
+		(at 137.16 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a835cd64-39ae-4409-825f-0f64999de38f")
+	)
+	(junction
 		(at 220.98 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6731,12 +6737,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5992206-ade1-4d59-9be5-69d24891ed23")
-	)
-	(junction
-		(at 139.7 158.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d993a7ca-4a1c-4896-8f8f-a83e589ca4d2")
 	)
 	(junction
 		(at 129.54 49.53)
@@ -6850,6 +6850,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 158.75) (xy 157.48 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ff3a4f-b22a-474c-9923-a9427b76e966")
+	)
+	(wire
+		(pts
 			(xy 175.26 41.91) (xy 175.26 29.21)
 		)
 		(stroke
@@ -6860,7 +6870,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 153.67) (xy 121.92 156.21)
+			(xy 119.38 153.67) (xy 119.38 156.21)
 		)
 		(stroke
 			(width 0)
@@ -6927,6 +6937,16 @@
 			(type default)
 		)
 		(uuid "110f216d-4d31-494b-a8e6-076c4f00e3bd")
+	)
+	(wire
+		(pts
+			(xy 137.16 153.67) (xy 142.24 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a290ba-311b-4779-a4a3-b65cf53e800d")
 	)
 	(wire
 		(pts
@@ -7420,7 +7440,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 158.75) (xy 157.48 158.75)
+			(xy 134.62 158.75) (xy 139.7 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7430,7 +7450,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 153.67) (xy 139.7 153.67)
+			(xy 134.62 153.67) (xy 137.16 153.67)
 		)
 		(stroke
 			(width 0)
@@ -7457,6 +7477,16 @@
 			(type default)
 		)
 		(uuid "448e3020-78c4-4731-a6ce-85541d6a1830")
+	)
+	(wire
+		(pts
+			(xy 139.7 140.97) (xy 139.7 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4527c367-2727-4edd-bf99-ebd2d3ad0925")
 	)
 	(wire
 		(pts
@@ -7850,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 156.21) (xy 121.92 158.75)
+			(xy 119.38 156.21) (xy 119.38 158.75)
 		)
 		(stroke
 			(width 0)
@@ -7950,7 +7980,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 156.21) (xy 106.68 156.21)
+			(xy 101.6 156.21) (xy 104.14 156.21)
 		)
 		(stroke
 			(width 0)
@@ -7960,7 +7990,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 137.16) (xy 139.7 153.67)
+			(xy 137.16 137.16) (xy 137.16 153.67)
 		)
 		(stroke
 			(width 0)
@@ -8017,16 +8047,6 @@
 			(type default)
 		)
 		(uuid "77e53624-509f-46b8-896b-a86a12eaf2fa")
-	)
-	(wire
-		(pts
-			(xy 137.16 158.75) (xy 139.7 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a8ce04c-5f89-450d-a4f4-d50b585eeb0d")
 	)
 	(wire
 		(pts
@@ -8630,16 +8650,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 153.67) (xy 142.24 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b98c0a11-b807-4bf3-977f-05c46094b8cc")
-	)
-	(wire
-		(pts
 			(xy 212.09 22.86) (xy 184.15 22.86)
 		)
 		(stroke
@@ -8660,17 +8670,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 158.75) (xy 139.7 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7b5e90-6a4a-4037-a066-242015888067")
-	)
-	(wire
-		(pts
-			(xy 128.27 137.16) (xy 139.7 137.16)
+			(xy 128.27 137.16) (xy 137.16 137.16)
 		)
 		(stroke
 			(width 0)
@@ -9149,8 +9149,8 @@
 		(uuid "fd794d7a-7528-49e0-a6b7-0007aa42f193")
 	)
 	(rectangle
-		(start 107.315 144.145)
-		(end 137.795 160.655)
+		(start 104.775 144.145)
+		(end 135.255 160.655)
 		(stroke
 			(width 0)
 			(type dash_dot_dot)
@@ -9159,6 +9159,18 @@
 			(type none)
 		)
 		(uuid 354346a2-5d9d-4743-9919-260c7ab7b511)
+	)
+	(rectangle
+		(start 137.795 132.715)
+		(end 147.32 140.97)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 699494ac-766b-4059-a7f9-49f276274a4c)
 	)
 	(rectangle
 		(start 149.225 33.655)
@@ -9208,7 +9220,7 @@
 	)
 	(text "AND"
 		(exclude_from_sim no)
-		(at 122.428 148.082 0)
+		(at 119.888 148.082 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9227,6 +9239,17 @@
 			(justify left)
 		)
 		(uuid "8f9c6c8a-c3ab-42bc-8d65-fa0750392e6b")
+	)
+	(text "Optional"
+		(exclude_from_sim yes)
+		(at 149.352 140.97 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92424de0-9df1-435a-a704-6ad00fc83ca0")
 	)
 	(label "SH-NET"
 		(at 25.4 63.5 90)
@@ -10010,7 +10033,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Littelfuse axial lead 3.6x10 mm"
+		(property "Description" "SMD Fuse"
 			(at 53.34 29.21 0)
 			(effects
 				(font
@@ -10642,7 +10665,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4011")
-		(at 114.3 156.21 0)
+		(at 111.76 156.21 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10651,7 +10674,7 @@
 		(dnp no)
 		(uuid "31ca4801-9e6e-4224-81f1-ec8abb135819")
 		(property "Reference" "U2"
-			(at 114.3083 147.32 0)
+			(at 111.7683 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +10682,7 @@
 			)
 		)
 		(property "Value" "CD4011UBM"
-			(at 114.3083 149.86 0)
+			(at 111.7683 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10667,7 +10690,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 114.3 156.21 0)
+			(at 111.76 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10676,7 +10699,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
-			(at 114.3 156.21 0)
+			(at 111.76 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10685,7 +10708,7 @@
 			)
 		)
 		(property "Description" "Quad Nand 2 inputs"
-			(at 114.3 156.21 0)
+			(at 111.76 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +11398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470"
+		(property "Value" "560"
 			(at 156.464 38.862 0)
 			(effects
 				(font
@@ -12012,7 +12035,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical"
+		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical"
 			(at 90.932 36.83 90)
 			(effects
 				(font
@@ -12125,7 +12148,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4011")
-		(at 129.54 156.21 0)
+		(at 127 156.21 0)
 		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
@@ -12134,7 +12157,7 @@
 		(dnp no)
 		(uuid "6c6f2cc2-c018-4524-b887-af4c34eb7528")
 		(property "Reference" "U2"
-			(at 129.5483 147.32 0)
+			(at 127.0083 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12142,7 +12165,7 @@
 			)
 		)
 		(property "Value" "CD4011UBM"
-			(at 129.5483 149.86 0)
+			(at 127.0083 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12150,7 +12173,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 129.54 156.21 0)
+			(at 127 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12159,7 +12182,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4011bms-12bms-23bms.pdf"
-			(at 129.54 156.21 0)
+			(at 127 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12168,7 +12191,7 @@
 			)
 		)
 		(property "Description" "Quad Nand 2 inputs"
-			(at 129.54 156.21 0)
+			(at 127 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13091,34 +13114,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 166.37 0)
+		(at 139.7 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b3fbbfe-cb5a-4a7a-afd2-5df6fd6a7c13")
 		(property "Reference" "R9"
-			(at 142.24 165.0999 0)
+			(at 141.732 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right top)
 			)
 		)
 		(property "Value" "100k"
-			(at 142.24 167.6399 0)
+			(at 141.732 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right bottom)
 			)
 		)
 		(property "Footprint" "PCM_Resistor_SMD_AKL:R_0603_1608Metric_Pad0.98x0.95mm"
-			(at 137.922 166.37 90)
+			(at 141.478 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,7 +13149,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 166.37 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13136,7 +13158,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 166.37 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14804,16 +14826,15 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 139.7 170.18 180)
+		(at 139.7 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dd6560b7-8567-4622-b890-5acea11360c4")
 		(property "Reference" "#PWR05"
-			(at 139.7 166.37 0)
+			(at 139.7 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14822,15 +14843,16 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 139.7 175.26 0)
+			(at 139.7 130.302 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 170.18 0)
+			(at 139.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14839,7 +14861,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 170.18 0)
+			(at 139.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14848,7 +14870,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 139.7 170.18 0)
+			(at 139.7 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14886,7 +14908,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uFx10V"
+		(property "Value" "10uFx16V"
 			(at 143.002 51.308 0)
 			(effects
 				(font
@@ -14895,7 +14917,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H_Pad1.50x2.35mm_HandSolder"
+		(property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S_Pad1.58x1.35mm_HandSolder"
 			(at 144.4752 49.53 0)
 			(effects
 				(font
@@ -15420,7 +15442,7 @@
 			)
 			(uuid "9e8982d1-f430-4d23-9ca1-b333da11c4c2")
 		)
-		(pin "~{RELAY_ON}" output
+		(pin "~{OUT}" output
 			(at 238.76 72.39 180)
 			(effects
 				(font

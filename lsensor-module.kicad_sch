@@ -3166,7 +3166,7 @@
 		)
 		(uuid "d4e35319-b8c6-4e61-8252-16bf35c3c64d")
 	)
-	(hierarchical_label "~{RELAY_ON}"
+	(hierarchical_label "~{OUT}"
 		(shape output)
 		(at 212.09 58.42 0)
 		(fields_autoplaced yes)

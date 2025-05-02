@@ -21,9 +21,10 @@ fp-info-cache
 *.bak_cir
 *.SVV
 *.TNO
-*.inx
-*.inx?
+*.inx*
 *.DNO
+*.DDNO
+Sims/*.txt
 
 # Netlist files (exported from Eeschema)
 *.net

@@ -28,13 +28,13 @@
         "fab_text_italic": false,
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
-        "fab_text_thickness": 0.15,
+        "fab_text_thickness": 0.2,
         "fab_text_upright": false,
         "other_line_width": 0.1,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
-        "other_text_thickness": 0.15,
+        "other_text_thickness": 0.2,
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
@@ -45,7 +45,7 @@
         "silk_text_italic": false,
         "silk_text_size_h": 1.0,
         "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.1,
+        "silk_text_thickness": 0.2,
         "silk_text_upright": false,
         "zones": {
           "min_clearance": 0.0
@@ -607,7 +607,7 @@
       "plot": "fab/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../SolidWorks_projects/Корпус_фотореле/photorelay_pcb2.step",
+      "step": "../../SolidWorks/Корпус_фотореле/photosensor_pcb.step",
       "svg": "",
       "vrml": ""
     },
@@ -630,8 +630,8 @@
     "bom_fmt_settings": {
       "field_delimiter": ";",
       "keep_line_breaks": false,
-      "keep_tabs": true,
-      "name": "---",
+      "keep_tabs": false,
+      "name": "CSV для Exel",
       "ref_delimiter": ",",
       "ref_range_delimiter": "-",
       "string_delimiter": ""
@@ -763,7 +763,7 @@
           "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
@@ -821,5 +821,7 @@
       "Субмодуль фотореле"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "WIDTH_SILK": "0.2mm"
+  }
 }
