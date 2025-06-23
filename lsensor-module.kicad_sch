@@ -5,8 +5,12 @@
 	(uuid "a44a6d69-d2db-43e0-8498-c95ab697e2ec")
 	(paper "A4")
 	(title_block
+		(title "Субмодуля аналогового фотореле. Схема ЭП.")
 		(date "2024-05-12")
+		(rev "1.3")
+		(comment 1 "ФРК.42126.002-03 Э3")
 		(comment 2 "В.Иншаков")
+		(comment 7 "Э04.01.01 Э3")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x02"

@@ -1,3 +1,0 @@
-Function                L_POT=0 L_POT=100
-                                         
-X_Delta(V(Out),1,1,1,2) -2.347k   -2.347k
