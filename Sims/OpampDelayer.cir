@@ -7,24 +7,16 @@ Shape Version=11.00
 Screen=1707,960
 MCAPVersion=12.2.0.5
 Key ID=Demo
-NLCnt=42
-TXCnt=7
+NLCnt=44
+TXCnt=8
 
 [shapedef]
-Name=Bjt.root
-Line=0,0,13,0
-Rectangle=13,-12,15,12
-Current=32,-24,32,-16
-Current=32,24,32,16
-Current=0,-8,8,-8
-PolyOpen=3
-PolyLine=24,-24
-PolyLine=24,-12
-PolyLine=14,-2
-PolyOpen=3
-PolyLine=24,24
-PolyLine=24,12
-PolyLine=14,2
+Name=Battery
+Line=0,0,22,0
+Line=22,-3,22,3
+Line=26,-7,26,7
+Line=26,0,48,0
+Current=32,8,16,8
 
 [shapedef]
 Name=Capacitor
@@ -35,10 +27,13 @@ Line=26,0,48,0
 Current=32,12,16,12
 
 [shapedef]
-Name=Fixed
-Line=8,0,32,0
-Line=8,0,0,-8
-Line=8,0,0,8
+Name=DNMOS
+Root="Mos2.root",0,0,0
+Line=14,0,24,0
+PolyClosed=3
+PolyLine=17,0
+PolyLine=20,-3
+PolyLine=20,3
 
 [shapedef]
 Name=Ground
@@ -52,12 +47,19 @@ Name=Minus.root
 Line=-2,0,2,0
 
 [shapedef]
-Name=NPN
-Root="Bjt.root",0,0,0
-PolyClosed=3
-PolyLine=20,12
-PolyLine=24,12
-PolyLine=24,8
+Name=Mos2.root
+Line=0,8,10,8
+Line=10,-8,10,8
+Line=14,-11,14,-5
+Line=14,-3,14,3
+Line=14,5,14,11
+Line=14,-8,24,-8
+Line=14,8,24,8
+Line=24,0,24,24
+Line=24,-8,24,-24
+Current=32,-24,32,-16
+Current=32,24,32,16
+Current=0,0,8,0
 
 [shapedef]
 Name=Opamp5
@@ -120,45 +122,11 @@ Root="Plus.root",41,7,0
 Current=32,16,16,16
 
 [compdef]
-Name=Capacitor
-Definition=Capacitor
-Shape=Capacitor
-Mask=6401
-Used=55
-memo=Capacitor
-Label Offset=16,12,12,12
-PinCnt=2
-Pin="Plus",6,0,-3,-5
-Pin="Minus",0,0,-14,-5
-
-[compdef]
-Name=Ground
-Definition=Ground
-Shape=Ground
-Mask=257
-Used=346
-memo=Ground
-Label Offset=0,0,0,0
-PinCnt=1
-Pin="PinA",0,0,-3,-7
-
-[compdef]
-Name=Fixed Analog
-Definition=ANALOG STATE
-Shape=Fixed
-Mask=2048
-Used=5
-memo=Provides a fixed DC voltage
-Label Offset=-14,-7,-6,-27
-PinCnt=1
-Pin="Out",4,0,-8,-3
-
-[compdef]
 Name=Pulse Source
 Definition=Pulse source
 Shape=Pulse_Source
 Mask=4864
-Used=19
+Used=22
 memo=Pulse Source
 Label Offset=18,13,15,9
 PinCnt=2
@@ -166,11 +134,22 @@ Pin="Plus",6,0,-5,-4
 Pin="Minus",0,0,-19,-4
 
 [compdef]
+Name=Ground
+Definition=Ground
+Shape=Ground
+Mask=513
+Used=377
+memo=Ground
+Label Offset=0,0,0,0
+PinCnt=1
+Pin="PinA",0,0,-3,-7
+
+[compdef]
 Name=Resistor
 Definition=Resistor
 Shape=Resistor
-Mask=6401
-Used=288
+Mask=6913
+Used=319
 memo=Resistor
 Label Offset=18,6,8,11
 PinCnt=2
@@ -178,26 +157,23 @@ Pin="Plus",6,0,-10,-4
 Pin="Minus",0,0,-14,-4
 
 [compdef]
-Name=BC847
-Definition=NPN
-Shape=NPN
-Mask=4224
-Used=2
-memo=NPN General Purpose Transistor Vceo=45V Ic=.1A Pd=.25W
-Link=http://www.nxp.com/documents/data_sheet/BC847_BC547_SER.pdf
-Label Offset=29,-11,-6,26
-PinCnt=3
-Pin="Collector",3,-3,5,3
-Pin="Base",0,0,-19,-3
-Pin="Emitter",3,3,6,4
-Power=0.25
+Name=Capacitor
+Definition=Capacitor
+Shape=Capacitor
+Mask=6145
+Used=62
+memo=Capacitor
+Label Offset=16,12,12,12
+PinCnt=2
+Pin="Plus",6,0,-3,-5
+Pin="Minus",0,0,-14,-5
 
 [compdef]
 Name=LMV321_NS
 Definition=Subckt
 Shape=Opamp5
 Mask=4224
-Used=3
+Used=4
 memo=Single General Purpose, Low Voltage Rail-to-Rail Output Opamp
 Label Offset=51,34,-8,44
 PinCnt=5
@@ -206,6 +182,32 @@ Pin="2",a,0,6,-3,18
 Pin="4",a,4,-1,6,15
 Pin="5",a,4,7,6,0
 Pin="6",a,9,3,-3,-3
+
+[compdef]
+Name=Battery
+Definition=Battery
+Shape=Battery
+Mask=6913
+Used=73
+memo=Battery
+Label Offset=19,7,10,13
+PinCnt=2
+Pin="Plus",6,0,-4,-5
+Pin="Minus",0,0,-10,-5
+
+[compdef]
+Name=DNMOS
+Definition=NMOS
+Shape=DNMOS
+Mask=4865
+Used=2
+memo=DNMOS
+Label Offset=28,-10,-4,25
+PinCnt=4
+Pin="Drain",3,-3,8,7
+Pin="Gate",0,1,-20,-4
+Pin="Source",3,3,7,11
+Pin="Body",3,3,8,-1
 
 [Circuit]
 Window Placement=2,3, -1,-1, -8,-31, 0,78,1251,547
@@ -235,64 +237,20 @@ Show Cross=False
 Show Attribute Text=True
 Show Grid Text=True
 
-[Comp]
-Name=Capacitor
-Px=208,200
-Rot=1
-
-[Attr]
-ON=-28,12,PART
-V=C1
-Style=8192
-
-[Attr]
-ON=-37,29,CAPACITANCE
-V=1u
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Comp]
-Name=Ground
-Px=400,192
-Rot=1
-
-[Comp]
-Name=Fixed Analog
-Px=192,32
-
-[Attr]
-ON=-32,-7,PART
-V=V1
-
-[Attr]
-ON=-8,-7,VALUE
-V=5
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
+[Wire]
+Pxs=104,136,104,160
 
 [Wire]
-Pxs=224,32,280,32
-
-[Wire]
-Pxs=400,32,400,128
-
-[Wire]
-Pxs=440,160,456,160
+Pxs=104,136,160,136
 
 [Comp]
 Name=Pulse Source
-Px=56,208
+Px=104,208
 Rot=3
 
 [Attr]
 ON=-32,-31,PART
-V=V2
+V=V1
 Style=8192
 
 [Attr]
@@ -303,24 +261,18 @@ V=PULSE
 ON=0,0,PACKAGE
 V
 
-[Wire]
-Pxs=56,136,56,160
-
-[Wire]
-Pxs=56,136,96,136
-
 [Comp]
 Name=Ground
-Px=56,208
+Px=104,208
 Rot=1
 
 [Comp]
 Name=Resistor
-Px=96,136
+Px=160,136
 
 [Attr]
 ON=18,6,PART
-V=R6
+V=R1
 Style=8192
 
 [Attr]
@@ -332,6 +284,45 @@ Style=8192
 ON=0,0,PACKAGE
 V
 
+[Wire]
+Pxs=208,136,232,136
+
+[Wire]
+Pxs=232,136,232,200
+
+[Comp]
+Name=Capacitor
+Px=232,200
+Rot=1
+
+[Attr]
+ON=-28,12,PART
+V=C1
+Style=8192
+
+[Attr]
+ON=-28,25,CAPACITANCE
+V=22u
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=232,248,232,304
+
+[Comp]
+Name=Ground
+Px=232,304
+Rot=1
+
+[Wire]
+Pxs=280,56,280,72
+
+[Wire]
+Pxs=280,56,400,56
+
 [Comp]
 Name=Resistor
 Px=280,72
@@ -339,17 +330,26 @@ Rot=1
 
 [Attr]
 ON=8,11,PART
-V=R7
+V=R2
 Style=8192
 
 [Attr]
 ON=8,25,RESISTANCE
-V=150k
+V=120k
 Style=8192
 
 [Attr]
 ON=0,0,PACKAGE
 V
+
+[Wire]
+Pxs=280,120,280,184
+
+[Wire]
+Pxs=280,184,336,184
+
+[Wire]
+Pxs=280,184,280,208
 
 [Comp]
 Name=Resistor
@@ -358,7 +358,7 @@ Rot=1
 
 [Attr]
 ON=9,11,PART
-V=R8
+V=R3
 Style=8192
 
 [Attr]
@@ -370,124 +370,22 @@ Style=8192
 ON=0,0,PACKAGE
 V
 
+[Wire]
+Pxs=280,256,280,304
+
 [Comp]
 Name=Ground
 Px=280,304
 Rot=1
 
 [Wire]
-Pxs=208,136,208,200
+Pxs=320,104,336,104
 
 [Wire]
-Pxs=208,248,208,304
+Pxs=320,104,320,136
 
 [Wire]
-Pxs=144,136,184,136
-
-[Wire]
-Pxs=280,120,280,184
-
-[Wire]
-Pxs=280,184,336,184
-
-[Wire]
-Pxs=280,184,280,208
-
-[Wire]
-Pxs=208,136,320,136
-
-[Wire]
-Pxs=280,32,280,72
-
-[Wire]
-Pxs=280,32,400,32
-
-[Comp]
-Name=Ground
-Px=208,304
-Rot=1
-
-[Wire]
-Pxs=184,136,208,136
-
-[Comp]
-Name=BC847
-Px=360,280
-Rot=6
-
-[Attr]
-ON=-46,-6,PART
-V=Q6
-Style=8192
-
-[Attr]
-ON=29,3,MODEL
-V=BC847
-
-[Attr]
-ON=29,17,POWER
-V=0.25
-
-[Attr]
-ON=29,45,PACKAGE
-V=SOT-23
-
-[Comp]
-Name=Resistor
-Px=336,208
-Rot=1
-
-[Attr]
-ON=8,11,PART
-V=R9
-Style=8192
-
-[Attr]
-ON=8,25,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=336,184,336,208
-
-[Wire]
-Pxs=336,184,368,184
-
-[Wire]
-Pxs=360,280,376,280
-
-[Wire]
-Pxs=456,160,456,280
-
-[Comp]
-Name=Ground
-Px=336,304
-Rot=1
-
-[Comp]
-Name=Resistor
-Px=376,280
-
-[Attr]
-ON=18,6,PART
-V=R10
-Style=8192
-
-[Attr]
-ON=18,20,RESISTANCE
-V=10k
-Style=8192
-
-[Attr]
-ON=0,0,PACKAGE
-V
-
-[Wire]
-Pxs=424,280,456,280
+Pxs=320,136,368,136
 
 [Comp]
 Name=Capacitor
@@ -508,19 +406,37 @@ ON=0,0,PACKAGE
 V
 
 [Wire]
-Pxs=320,104,336,104
+Pxs=336,184,336,208
 
 [Wire]
-Pxs=320,104,320,136
+Pxs=336,184,368,184
+
+[Comp]
+Name=Resistor
+Px=336,208
+Rot=1
+
+[Attr]
+ON=8,11,PART
+V=R4
+Style=8192
+
+[Attr]
+ON=8,25,RESISTANCE
+V=10k
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Comp]
+Name=Ground
+Px=336,304
+Rot=1
 
 [Wire]
-Pxs=320,136,368,136
-
-[Wire]
-Pxs=384,104,456,104
-
-[Wire]
-Pxs=456,104,456,160
+Pxs=360,288,376,288
 
 [Comp]
 Name=LMV321_NS
@@ -539,8 +455,107 @@ V=LMV321_NS
 ON=51,76,PACKAGE
 V=SC70_5
 
+[Comp]
+Name=Resistor
+Px=376,288
+
+[Attr]
+ON=18,6,PART
+V=R5
+Style=8192
+
+[Attr]
+ON=18,20,RESISTANCE
+V=10k
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
 [Wire]
-Pxs=280,256,280,304
+Pxs=384,104,456,104
+
+[Wire]
+Pxs=400,56,400,128
+
+[Wire]
+Pxs=400,56,520,56
+
+[Comp]
+Name=Ground
+Px=400,192
+Rot=1
+
+[Wire]
+Pxs=424,288,456,288
+
+[Wire]
+Pxs=440,160,456,160
+
+[Wire]
+Pxs=456,104,456,160
+
+[Wire]
+Pxs=456,160,456,288
+
+[Wire]
+Pxs=520,56,520,160
+
+[Comp]
+Name=Battery
+Px=520,208
+Rot=3
+
+[Attr]
+ON=-26,-27,PART
+V=V2
+
+[Attr]
+ON=-19,-33,VALUE
+V=5
+Style=8192
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Wire]
+Pxs=520,208,520,304
+
+[Comp]
+Name=Ground
+Px=520,304
+Rot=1
+
+[Wire]
+Pxs=232,136,320,136
+
+[Comp]
+Name=DNMOS
+Px=360,280
+Rot=6
+
+[Attr]
+ON=-3,-14,PART
+V=M1
+Style=8192
+
+[Attr]
+ON=-77,-53,MODEL
+V=$GENERIC_N
+
+[Attr]
+ON=0,0,PACKAGE
+V
+
+[Grid Text]
+Text="Run TRAN analyze (Alt+1)"
+Px=232,352
+GridSnap=True
+JustifyH=Left
+JustifyV=Bottom
+CBorder=None
 
 [Grid Text]
 Text="5"
@@ -576,7 +591,7 @@ CBorder=None
 
 [Grid Text]
 Text="Trig"
-Px=56,136
+Px=232,136
 GridSnap=True
 JustifyH=Left
 JustifyV=Bottom
@@ -584,9 +599,9 @@ CBorder=None
 
 [Grid Text]
 Text="In"
-Px=184,136
+Px=104,136
 GridSnap=True
-JustifyH=Right
+JustifyH=Left
 JustifyV=Bottom
 CBorder=None
 
@@ -773,7 +788,7 @@ ALIGNBOTTOM=No
 
 [Section]
 Index=0
-Name="Delayer_opamp"
+Name="OpampDelayer"
 Type=Main
 Enable=True
 CurrentPage 0=0
@@ -791,12 +806,13 @@ Section=0
 Print=True
 Enable=True
 Name=Main
+T.PrintPreview=Off,0,0,1,1
 PrinterScale=1
 Scale 0=1
 Scale 1=1
 Scale 2=1
 Scale 3=0.66666666666666663
-Px=333,353
+Px=223,409
 WinBackGround Color=#F8F5E9
 Select Color=#FF0000
 Anchor Color=#000000
@@ -860,6 +876,7 @@ Type=Text
 Print=False
 Enable=True
 Name=Models
+SB 0=0,19
 Font=Height=-15,FStyle=0,Color=#000000,Name=Courier New
 Comment Color=#008000
 WinBackGround Color=#FFFFFF
@@ -886,6 +903,20 @@ Search Color=#FFFF00
 [Text Area]
 Section=0
 Page=1
+Text=* Поиск нижнего порога срабатывания триггера Шмитта
+Text=
+Text=* Максимальная задержка включения
+Text=.BEGIN_MEASURE DELAY_ON(Y1, Y2)
+Text=.MEASURE TRAN pk1 MAX Y1 FROM=TSTART TO=TMAX
+Text=.MEASURE TRAN pk2 MAX Y2 FROM=TSTART TO=TMAX
+Text=.MEASURE TRAN DELAY_ON TRIG Y1 VAL=pk1*0.9 TD=.1n RISE=1 TARG Y2 VAL=pk2*0.9 TD=.1n RISE=1
+Text=.END_MEASURE DELAY_ON
+Text=
+Text=* Максимальная задержка включения
+Text=.BEGIN_MEASURE DELAY_OFF(Y1, Y2)
+Text=.MEASURE TRAN DELAY_OFF TRIG Y1 VAL=0.9 TD=.1n FALL=1 TARG Y2 VAL=0.9 TD=.1n FALL=1
+Text=.END_MEASURE DELAY_OFF
+Text=
 
 [Text Area]
 Section=0
@@ -908,7 +939,8 @@ Text=* A .cir file is typically found in the data directory
 Text=*
 Text=*** From file C:\Games\MicroCap12\library\UTILITY.LBR
 Text=*** 5V Pulse Source
-Text=.MODEL PULSE PUL (P1=0 P2=101n P3=200m P4=200m P5=700m VONE=4.95 VZERO=200m)
+Text=.MODEL PULSE PUL (P1=100m P2=100m P3=8.5 P4=8.5 P5=16 VONE=4.25 VZERO=200m)
+Text=.MODEL $GENERIC_N NMOS ()
 
 [InfoPage]
 InfoPage=True
@@ -933,7 +965,7 @@ WinBackGround Color=#FFFFFF
 Select Color=#FF0000
 Anchor Color=#000000
 Select Box Color=#000080
-Title
+Title=OpampDelayer.cir
 AutoTitle=Yes
 Grid Color=#808080
 Grid Weight=1
@@ -980,7 +1012,7 @@ Data Point Labels Color Fore=Height=-15,FStyle=0,Color=#000000,Name=Arial
 Data Point Labels Color Back=#FFFF00
 OperPoint=True
 OperPointOnly=False
-AutoScaleRanges=True
+AutoScaleRanges=False
 FixedTimeStep=False
 DoPSS=False
 PSS_Periods="1"
@@ -996,7 +1028,7 @@ MonMaxShow=3
 MonPageWidth=66
 MonPlotWidth=21
 MonExprXWidth=142
-MonExprYWidth=367
+MonExprYWidth=366
 MonRangeXWidth=90
 MonRangeYWidth=90
 AnimateWait=None
@@ -1150,6 +1182,52 @@ ALIGNBOTTOM=No
 [APage]
 Analysis=Transient
 Name="MAIN"
+PrintPreview=On,0,0,1,1
+
+[AObject]
+Analysis=Transient
+Object=MeasureV
+Locked=True
+EndPoint=ArrowF
+CBorder=#000080
+w=1
+AliasID1=4
+w2=1
+AliasID2=4
+Pos=12.850348211689003,0.74645561682823591,7.5111240534298718,4.1088142378770058
+Posm=12.938271604938272
+Font=Height=-15,FStyle=0,Color=#8000E0,Name=Arial
+Format=3
+
+[AObject]
+Analysis=Transient
+Object=MeasureH
+Locked=True
+EndPoint=ArrowF
+CBorder=#000080
+w=0
+AliasID1=1
+w2=2
+AliasID2=2
+Pos=8.500003989999998,2.3262500010919838,12.827878688878915,2.8140227393464134
+Posm=2.6155115511551155
+Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+Format=3
+
+[AObject]
+Analysis=Transient
+Object=MeasureH
+Locked=True
+EndPoint=ArrowF
+CBorder=#000080
+w=0
+AliasID1=1
+w2=2
+AliasID2=2
+Pos=0.10000399000000001,2.1237500000031782,7.5084587671803229,1.8554012322098714
+Posm=1.6584158415841583
+Font=Height=-15,FStyle=0,Color=#0000FF,Name=Arial
+Format=3
 
 [Monte Carlo Options]
 Analysis=Transient
@@ -1162,10 +1240,10 @@ Seed=0
 
 [Limits]
 Analysis=Transient
-TMax=2
+TMax=16
 TStart=0
 TStep=10m
-NPts=100
+NPts=101
 Temp=27
 RetraceRuns=1
 StateVar=Zero
@@ -1179,18 +1257,19 @@ Analysis=Transient
 Plt=1
 AliasID=1
 XExp=T
-YExp=v(In)
-XRng=2
-YRng=6.75,-0.75
+YExp=v(In),In (Volts);Input Volage
+XRng=TMAX,0
+YRng=5,0
 Options=LINEARX,LINEARY
-Range Grid X=0.4
-Range Grid Y=1.5
+Range Grid X=2.8
+Range Grid Y=2
 Show Data Points=True
-Data Points=0.4,0.5
 Enable=Enable
+CS=Normal
 Line Color=#0000FF
 Text Color=#0000FF
 Rainbow=False
+LWdth=2
 VFmtX=3
 VFmtY=3
 ScaleFactorX="None"
@@ -1207,18 +1286,21 @@ Analysis=Transient
 Plt=1
 AliasID=4
 XExp=T
-YExp=v(Trig)
-XRng=2
-YRng=6.75,-0.75
+YExp=v(Trig),Trig (Volts);Trigger Volage
+XRng=TMAX,0
+YRng=5,0
 Options=LINEARX,LINEARY
-Range Grid X=0.4
-Range Grid Y=1.5
+Range Grid X=2.8
+Range Grid Y=2
 Show Data Points=True
-Data Points=0.8
+Show Data Points LabelY=True
+Data Points=7.508, 12.828
 Enable=Enable
+CS=Normal
 Line Color=#8000E0
 Text Color=#8000E0
 Rainbow=False
+LWdth=2
 VFmtX=3
 VFmtY=3
 ScaleFactorX="None"
@@ -1235,13 +1317,14 @@ Analysis=Transient
 Plt=1
 AliasID=2
 XExp=T
-YExp=v(Out)
-XRng=2
-YRng=6.75,-0.75
+YExp=v(Out),Out (Volts)
+XRng=TMAX,0
+YRng=5,0
 Options=LINEARX,LINEARY
-Range Grid X=0.4
-Range Grid Y=1.5
+Range Grid X=2.8
+Range Grid Y=2
 Enable=Enable
+CS=Normal
 Line Color=#FF0000
 Text Color=#FF0000
 Rainbow=False
@@ -1366,3 +1449,26 @@ Source Stepping=0,0
 Diagonal Gmin Stepping=0,0
 Junction Gmin Stepping=0,0
 Pseudo Transient=0,0
+
+[Measurements]
+Analysis=Transient
+ShowBar=False
+MRUDockID=59422
+Floating=True
+LocalOffset=False
+Rect=266,141,308,180
+Horz=1711,-1
+Vert=42,39
+Float=458,225
+Format=3
+FunctionWidth=150
+TextDelim=32
+GenerateExcel=False
+GenerateText=False
+NumberOfBranchesToDisplay=10
+FileName
+Expr=DELAY_ON(v(In),v(Out))
+Expr=DELAY_OFF(v(In),v(Out))
+Expr=X_Level(v(Out),1,1,4)
+Expr=X_Level(v(Out),1,2,4)
+Expr
