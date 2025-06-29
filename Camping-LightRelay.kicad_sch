@@ -12027,7 +12027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "47 1W"
+		(property "Value" "43 1W"
 			(at 94.742 37.084 0)
 			(effects
 				(font
